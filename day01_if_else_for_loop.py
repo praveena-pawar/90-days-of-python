@@ -8,3 +8,5 @@ for n in nums:
 
 print("Number of even elements:", count)
 
+#output:
+#number of even elements is : 3
