@@ -33,4 +33,11 @@ for i in range(1, 21):
     if i % 3 == 0:
         print(i)
 
+#output:
+# 3
+# 6
+# 9
+# 12
+# 15
+# 18 
 
