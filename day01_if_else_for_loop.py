@@ -6,5 +6,5 @@ for n in nums:
     if n % 2 == 0:
         count += 1
 
-print(count)
+print("Number of even elements:", count)
 
