@@ -25,3 +25,12 @@ print("sum of positive numbers:", total)
 
 #output:
 #sum of positive numbers is : 15
+
+
+
+# 3. Print numbers divisible by 3
+for i in range(1, 21):
+    if i % 3 == 0:
+        print(i)
+
+
