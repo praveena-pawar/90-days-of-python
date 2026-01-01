@@ -1,4 +1,4 @@
-# 1. # Count even numbers in a list
+# 1.  Count even numbers in a list
 nums = [1, 4, 7, 10, 13, 16]
 count = 0
 
@@ -13,7 +13,7 @@ print("Number of even elements:", count)
 
 
 
-# Sum only positive numbers
+# 2. Sum only positive numbers
 nums = [-2, 5, -1, 7, 3]
 total = 0
 
