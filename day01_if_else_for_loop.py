@@ -10,3 +10,15 @@ print("Number of even elements:", count)
 
 #output:
 #number of even elements is : 3
+
+
+
+# Sum only positive numbers
+nums = [-2, 5, -1, 7, 3]
+total = 0
+
+for n in nums:
+    if n > 0:
+        total += n
+
+print(total)
