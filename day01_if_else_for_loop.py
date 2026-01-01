@@ -21,4 +21,7 @@ for n in nums:
     if n > 0:
         total += n
 
-print(total)
+print("sum of positive numbers:", total)
+
+#output:
+#sum of positive numbers is : 15
