@@ -11,3 +11,7 @@ for n in nums:
 
 print("Even:", even_count)
 print("Odd:", odd_count)
+
+#output
+#Even : 3
+#Odd : 3
