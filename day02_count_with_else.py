@@ -12,7 +12,7 @@ for n in nums:
 print("Even:", even_count)
 print("Odd:", odd_count)
 
-#output
+#output:
 #Even : 3
 #Odd : 3
 
@@ -32,7 +32,7 @@ for n in nums:
 print("Less than 10 :", small)
 print("10 or more:", large)
 
-#output
+#output:
 #Less than 10 is : 3
 # 10 or more is : 4 
 
@@ -48,5 +48,9 @@ for ch in word:
     else :
         consonants += 1
 
-print("vowels:", vowels)
-print("consonants:", consonants)
+print("Vowels:", vowels)
+print("Consonants:", consonants)
+
+#output:
+#Vowels : 4
+#Consonants : 5
