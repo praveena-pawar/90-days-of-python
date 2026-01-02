@@ -29,5 +29,9 @@ for n in nums:
     else :
         large +=1 
 
-print("Less the 10 :", small)
+print("Less than 10 :", small)
 print("10 or more:", large)
+
+#output
+#Less than 10 is : 3
+# 10 or more is : 4 
