@@ -19,7 +19,7 @@ print("Odd:", odd_count)
 
 
 # 2. Count numbers in ranges
-nums = [5, 12, 18, 3, 25, 7, 11, 10]
+nums = [5, 12, 18, 3, 25, 7, 11]
 small = 0
 large = 0
 
@@ -29,5 +29,5 @@ for n in nums:
     else :
         large +=1 
 
-print("Small:", small)
-print("Large:", large)
+print("Less the 10 :", small)
+print("10 or more:", large)
