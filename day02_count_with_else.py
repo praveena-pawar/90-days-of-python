@@ -15,3 +15,19 @@ print("Odd:", odd_count)
 #output
 #Even : 3
 #Odd : 3
+
+
+
+# 2. Count numbers in ranges
+nums = [5, 12, 18, 3, 25, 7, 11, 10]
+small = 0
+large = 0
+
+for n in nums:
+    if n < 10 :
+        small += 1
+    else :
+        large +=1 
+
+print("Small:", small)
+print("Large:", large)
