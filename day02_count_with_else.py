@@ -37,6 +37,7 @@ print("10 or more:", large)
 # 10 or more is : 4 
 
 
+
 # 3. (Very important): Count characters
 word = "developer"
 vowels = 0
