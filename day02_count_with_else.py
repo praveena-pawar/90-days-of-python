@@ -35,3 +35,18 @@ print("10 or more:", large)
 #output
 #Less than 10 is : 3
 # 10 or more is : 4 
+
+
+# 3. (Very important): Count characters
+word = "developer"
+vowels = 0
+consonants = 0
+
+for ch in word:
+    if ch in "aeiou":
+        vowels += 1
+    else :
+        consonants += 1
+
+print("vowels:", vowels)
+print("consonants:", consonants)
