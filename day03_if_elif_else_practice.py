@@ -60,3 +60,8 @@ for ch in text:
 print("Letters :", letters)
 print("Digits :", digits)
 print("Special :", special)
+
+#output:
+#letters : 2
+#digits : 1
+#special : 1
