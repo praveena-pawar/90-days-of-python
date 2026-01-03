@@ -37,3 +37,7 @@ for n in marks:
 print("Passed :", pass_count)
 print("Failed :", fail_count)
 
+#output:
+#passes : 4
+#failed : 1
+
