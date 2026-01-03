@@ -20,3 +20,20 @@ print("Positive :", positive)
 #Negative : 2
 #zero : 2
 #positive : 2
+
+
+
+# 2. Grade system
+marks = [45, 72, 88, 33, 60]
+pass_count = 0
+fail_count = 0
+
+for n in marks:
+    if n >= 40:
+        pass_count +=1
+    else:
+        fail_count +=1
+
+print("Passed :", pass_count)
+print("Failed :", fail_count)
+
