@@ -41,3 +41,22 @@ print("Failed :", fail_count)
 #passes : 4
 #failed : 1
 
+
+
+# 3. Character type
+text = "aB3#"
+letters = 0
+digits = 0
+special = 0
+
+for ch in text:
+    if ch.isalpha():
+        letters += 1
+    elif ch.isdigit():
+        digits += 1
+    else:
+        special += 1
+
+print("Letters :", letters)
+print("Digits :", digits)
+print("Special :", special)
