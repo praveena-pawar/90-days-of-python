@@ -16,7 +16,7 @@ print("Negative :", negative )
 print("Zero :", zero)
 print("Positive :", positive)
 
-#output:
+#output :
 #Negative : 2
 #zero : 2
 #positive : 2
