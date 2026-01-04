@@ -29,18 +29,15 @@ else:
 # Task 1️
 
 # Write a program to:
-
 # Take a number
 
 # Print:
 
 # "Divisible by 3" if divisible by 3
-
 # "Divisible by 5" if divisible by 5
-
 # "Divisible by both" if divisible by both
-
 # "Not divisible by 3 or 5" otherwise
+
 
 num = int(input("Enter a number :"))
 
