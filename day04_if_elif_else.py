@@ -49,3 +49,15 @@ elif num % 5 == 0:
     print("Divisible by 5")
 else:
     print("Not divisible by 3 or 5")
+
+
+
+# Task 2️
+
+# Write a program to:
+# Check a character
+
+# Print:
+# "Vowel" if it is a e i o u
+# "Consonant" otherwise
+
