@@ -61,3 +61,9 @@ else:
 # "Vowel" if it is a e i o u
 # "Consonant" otherwise
 
+ch = (input("Enter a character :")).islower()
+
+if ch in "aeiou":
+    print("Vowel")
+else:
+    print("Consonant")
