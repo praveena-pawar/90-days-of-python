@@ -8,6 +8,10 @@ elif num == 0:
 else:
     print("Negative")
 
+#output:
+#positive
+
+
 # Think:
 
 # Why only one print runs?
