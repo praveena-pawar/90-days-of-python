@@ -62,9 +62,9 @@ consonants = 0
 
 for ch in name:
     if ch in "aeiou":
-        vowels +=1 
+        vowels += 1 
     else:
-        consonants +=1 
+        consonants += 1 
 
 print("Vowels :", vowels)
 print("Consonants :", consonants)
