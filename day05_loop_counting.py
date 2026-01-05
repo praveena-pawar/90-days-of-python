@@ -11,6 +11,9 @@ for n in nums:
 
 print(even_count, odd_count)
 
+#output:
+#even_count : 3 and odd_count : 2
+
 # Think:
 
 # Why do we need two counters?
