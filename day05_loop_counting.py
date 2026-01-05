@@ -48,3 +48,23 @@ print("Big numbers count :", big_count)
 #output:
 #Small numbers count : 4
 #Big numbers count : 4
+
+
+
+# Task 2️
+
+# Write a program to:
+# Count vowels and consonants in a string
+
+name = "python".lower()
+vowels = 0
+consonants = 0
+
+for ch in name:
+    if ch in "aeiou":
+        vowels +=1 
+    else:
+        consonants +=1 
+
+print("Vowels :", vowels)
+print("Consonants :", consonants)
