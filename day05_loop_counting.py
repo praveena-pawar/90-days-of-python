@@ -68,3 +68,7 @@ for ch in name:
 
 print("Vowels :", vowels)
 print("Consonants :", consonants)
+
+#output:
+# Vowels : 1
+# Consonants : 5
