@@ -45,3 +45,6 @@ for n in nums:
 print("Small numbers count :", small_count)
 print("Big numbers count :", big_count)
 
+#output:
+#Small numbers count : 4
+#Big numbers count : 4
