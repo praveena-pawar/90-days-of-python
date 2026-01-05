@@ -21,3 +21,13 @@ print(even_count, odd_count)
 
 # What happens in each loop iteration?
 # A for loop goes one element at a time.
+
+
+
+# 2. You write code
+
+# Task 1️
+
+# Write a program to:
+# Count how many numbers are greater than 10
+# And how many are 10 or less
