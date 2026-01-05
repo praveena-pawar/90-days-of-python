@@ -31,3 +31,17 @@ print(even_count, odd_count)
 # Write a program to:
 # Count how many numbers are greater than 10
 # And how many are 10 or less
+
+nums = [9, 11, 10, 18, 25, 5, 4, 12]
+small_count = 0
+big_count = 0
+
+for n in nums:
+    if n <= 10:
+        small_count += 1
+    else:
+        big_count += 1
+
+print("Small numbers count :", small_count)
+print("Big numbers count :", big_count)
+
