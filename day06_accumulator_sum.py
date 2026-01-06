@@ -75,9 +75,24 @@ for n in nums:
     if n > large_num:
         large_num = n   # replace, not add
 
-print(large_num)
+print("the largest number :", large_num)
+
+#output;
+#the largest number : 78
 
 
 
 
+#  Practice Question (Accumulator + Comparison)
 
+# Problem:
+# Given a list of numbers, find the smallest number in the list.
+
+nums = [42, 17, 8, 99, 23]
+min_num = nums[0]
+
+for n in nums:
+    if n < min_num:
+        min_num = n
+
+print("The smallest number in the list :", min_num)
