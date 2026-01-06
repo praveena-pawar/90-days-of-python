@@ -67,3 +67,17 @@ print("The sum of only even numbers :", total_even)
 # Find the largest number in a list
 # (Do NOT use max())
 
+nums = [25, 38, 47, 55, 67, 78, 10]
+
+large_num = nums[0]   # assume first number is largest
+
+for n in nums:
+    if n > large_num:
+        large_num = n   # replace, not add
+
+print(large_num)
+
+
+
+
+
