@@ -54,3 +54,6 @@ for n in nums:
         total_even += n
 
 print("The sum of only even numbers :", total_even)
+
+#output:
+#The sum of only even numbers : 
