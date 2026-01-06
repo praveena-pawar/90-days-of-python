@@ -46,3 +46,11 @@ print("The sum of all numbers is :", total)
 # Write a program to:
 # Find the sum of only even numbers in a list
 
+nums = [80, 69, 78, 7, 18, 52, 99]
+total_even = 0
+
+for n in nums:
+    if n % 2 == 0:
+        total_even += n
+
+print("The sum of only even numbers :", total_even)
