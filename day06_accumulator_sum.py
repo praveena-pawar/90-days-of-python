@@ -17,3 +17,13 @@ print(total)
 
 # What happens in each loop iteration?
 # In each iteration the loop adds the current element to the accumulator.
+
+
+
+
+# 2: You write code
+# Task 1️
+
+# Write a program to:
+# Find the sum of all numbers in a list
+
