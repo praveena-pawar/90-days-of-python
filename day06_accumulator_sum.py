@@ -96,3 +96,7 @@ for n in nums:
         min_num = n
 
 print("The smallest number in the list :", min_num)
+
+#output:
+#The smallest number in the list : 8
+
