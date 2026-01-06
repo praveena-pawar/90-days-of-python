@@ -7,6 +7,8 @@ for n in nums:
 
 print(total)
 
+#output:
+#total : 20
 
 # Think:
 
