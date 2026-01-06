@@ -56,4 +56,14 @@ for n in nums:
 print("The sum of only even numbers :", total_even)
 
 #output:
-#The sum of only even numbers : 
+#The sum of only even numbers : 228
+
+
+
+
+# Task 3️
+
+# Write a program to:
+# Find the largest number in a list
+# (Do NOT use max())
+
