@@ -27,3 +27,10 @@ print(total)
 # Write a program to:
 # Find the sum of all numbers in a list
 
+nums = [10, 85, 76, 98, 42, 38]
+total = 0
+
+for n in nums:
+    total += n
+
+print("The sum of all numbers is :", total)
