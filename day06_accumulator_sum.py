@@ -34,3 +34,15 @@ for n in nums:
     total += n
 
 print("The sum of all numbers is :", total)
+
+#output :
+# The sum of all numbers is : 349
+
+
+
+
+# Task 2️
+
+# Write a program to:
+# Find the sum of only even numbers in a list
+
