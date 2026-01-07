@@ -21,3 +21,12 @@ print(result)
 # def test():
 #     return 10
 #     print("Hello")  # ❌ never runs
+
+
+
+
+# Task 1️
+
+# Write a function to:
+# Take one number
+# Return square of that number
