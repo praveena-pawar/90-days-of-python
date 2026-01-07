@@ -62,3 +62,27 @@ print("The sum of all numbers :", result)
 
 #output:
 #The sum of all numbers : 230
+
+
+
+
+# Task 3️
+
+# Write a function to:
+# Take a list
+# Return the largest number
+
+nums = [10, 54, 67, 94, 83, 92]
+
+def largest_num(nums):
+    large_num = nums[0]
+
+    for n in nums:
+        if n > large_num:
+            large_num = n
+    return large_num
+
+result = largest_num(nums)
+print("The largest number is :", result)
+
+        
