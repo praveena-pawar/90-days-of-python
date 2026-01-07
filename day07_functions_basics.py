@@ -47,3 +47,16 @@ print("the square of", x ,"is", result)
 # Take a list
 # Return the sum of all numbers
 # (Use loop, don’t use sum())
+
+nums = [10, 30, 60, 80, 50]
+
+def sum_of_list(nums):
+    total = 0
+
+    for n in nums:
+        total += n
+    return total
+
+result = sum_of_list(nums)
+print("The sum of all numbers :", result)
+
