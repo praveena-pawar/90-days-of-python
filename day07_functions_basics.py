@@ -60,3 +60,5 @@ def sum_of_list(nums):
 result = sum_of_list(nums)
 print("The sum of all numbers :", result)
 
+#output:
+#The sum of all numbers : 230
