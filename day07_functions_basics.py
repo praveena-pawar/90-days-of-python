@@ -85,4 +85,6 @@ def largest_num(nums):
 result = largest_num(nums)
 print("The largest number is :", result)
 
+#output:
+#THe largest number is: 94
         
