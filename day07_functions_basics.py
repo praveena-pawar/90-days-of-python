@@ -30,3 +30,10 @@ print(result)
 # Write a function to:
 # Take one number
 # Return square of that number
+
+def square(x):
+    return x ** 2
+
+x = float(input("Enter a number :"))
+result = square(x)
+print("the square of", x ,"is", result)
