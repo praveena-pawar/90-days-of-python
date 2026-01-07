@@ -37,3 +37,13 @@ def square(x):
 x = float(input("Enter a number :"))
 result = square(x)
 print("the square of", x ,"is", result)
+
+
+
+
+# Task 2️
+
+# Write a function to:
+# Take a list
+# Return the sum of all numbers
+# (Use loop, don’t use sum())
