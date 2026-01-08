@@ -71,3 +71,12 @@ print("The sum of numbers greater than 1o :", result)
 
 #output:
 #The sum of numbers greater than 1o : 54
+
+
+
+
+# Task 3️
+
+# Write a function to:
+# Take a string
+# Return count of vowels
