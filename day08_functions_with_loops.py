@@ -26,3 +26,11 @@ print("The count of even numbers :", result)
 # What happens when we call the function?
 # The function starts executing Loop + condition run inside it return count sends the value back
 # We receive it where the function was called
+
+
+
+# Task 1️
+
+# Write a function to:
+# Take a list
+# Return count of odd numbers
