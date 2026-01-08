@@ -57,3 +57,17 @@ print("The count of odd numbers :", result)
 # Write a function to:
 # Take a list
 # Return sum of numbers greater than 10
+nums = [8, 12, 10, 42, 6]
+
+def sum_numbers(nums):
+    total = 0
+    for n in nums:
+        if n > 10:
+            total += n
+    return total
+
+result = sum_numbers(nums)
+print("The sum of numbers greater than 1o :", result)
+
+#output:
+#The sum of numbers greater than 1o : 54
