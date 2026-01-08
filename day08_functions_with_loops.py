@@ -29,8 +29,23 @@ print("The count of even numbers :", result)
 
 
 
+
 # Task 1️
 
 # Write a function to:
 # Take a list
 # Return count of odd numbers
+nums = [10, 15, 17, 24, 9, 3]
+
+def odd_count(nums):
+    count = 0
+    for n in nums:
+        if n % 2 != 0:
+            count += 1
+    return count
+
+result = odd_count(nums)
+print("The count of odd numbers :", result)
+
+#output:
+#The count of odd numbers : 4
