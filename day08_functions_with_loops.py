@@ -49,3 +49,11 @@ print("The count of odd numbers :", result)
 
 #output:
 #The count of odd numbers : 4
+
+
+
+# Task 2️
+
+# Write a function to:
+# Take a list
+# Return sum of numbers greater than 10
