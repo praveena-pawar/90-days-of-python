@@ -10,3 +10,15 @@ def count_even(nums):
 
 result = count_even(nums)
 print("The count of even numbers :", result)
+
+#output:
+#The count of even numbers : 3
+
+
+# Think:
+
+# Why is count inside the function?
+
+# What does the function return?
+
+# What happens when we call the function?
