@@ -94,3 +94,25 @@ print("The count of vowels is :", result)
 
 #output:
 #The count of vowels is : 11
+
+
+
+
+
+# Challenge: String Analyzer Function
+def count_alphabet(word):
+    count_vowels = 0
+    count_consonants = 0
+    for ch in word:
+        if ch == " ":
+            continue
+        elif ch in "aeiou".lower():
+            count_vowels += 1
+        else:
+            count_consonants += 1
+    return count_vowels, count_consonants
+
+word = input("Enter a string :")
+vowels, consonants = count_alphabet(word)
+print("The total number of vowels :", vowels)
+print("The total number of consonants :", consonants)
