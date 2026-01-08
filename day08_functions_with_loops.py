@@ -18,7 +18,11 @@ print("The count of even numbers :", result)
 # Think:
 
 # Why is count inside the function?
+#count is inside the function because it is a local variable.
 
 # What does the function return?
+# The function returns the final count of even numbers to the caller.
 
 # What happens when we call the function?
+# The function starts executing Loop + condition run inside it return count sends the value back
+# We receive it where the function was called
