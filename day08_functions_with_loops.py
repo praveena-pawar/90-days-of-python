@@ -80,3 +80,17 @@ print("The sum of numbers greater than 1o :", result)
 # Write a function to:
 # Take a string
 # Return count of vowels
+name = "i love python programming language"
+
+def count_vowels(name):
+    count = 0
+    for n in name:
+        if n in "aeiou".lower():
+            count += 1
+    return count
+
+result = count_vowels(name)
+print("The count of vowels is :", result)
+
+#output:
+#The count of vowels is : 11
