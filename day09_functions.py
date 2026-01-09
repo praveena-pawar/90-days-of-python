@@ -19,3 +19,13 @@ print("The number is :", result)
 
 
 
+
+# Task 2 – Count Even Numbers (Using Function)
+
+# Write a function that:
+# Takes a list of numbers
+# Counts how many numbers are even
+# Returns the count
+
+
+
