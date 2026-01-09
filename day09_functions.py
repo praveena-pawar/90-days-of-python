@@ -40,3 +40,6 @@ def count_even(nums):
 result = count_even(nums)
 print("The total even numbers are :", result)
 
+#output :
+#The total even numbers are : 3
+
