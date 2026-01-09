@@ -81,3 +81,21 @@ print("The largest number is :", result)
 # Number of lowercase letters
 # Ignore spaces
 # Returns both counts
+
+def alphabet(name):
+    count_uppercase = 0
+    count_lowercase = 0
+    for ch in name:
+        if ch == " ":
+            continue
+        elif ch.islower():
+            count_lowercase += 1
+        elif ch.isupper():
+            count_uppercase += 1
+        
+    return count_uppercase,  count_lowercase
+
+name = input("Enter a string :")
+uppercase, lowercase = alphabet(name)
+print("The total number of uppercase letters :", uppercase)
+print("The total Number of lowercase letters :", lowercase)
