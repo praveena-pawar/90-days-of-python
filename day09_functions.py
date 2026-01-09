@@ -68,3 +68,16 @@ print("The largest number is :", result)
 
 #output:
 #The largest number is : 89
+
+
+
+
+# Task – String & Function Logic
+# Write a function that:
+
+# Takes a string as input
+# Counts:
+# Number of uppercase letters
+# Number of lowercase letters
+# Ignore spaces
+# Returns both counts
