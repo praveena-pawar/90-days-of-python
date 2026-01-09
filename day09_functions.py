@@ -4,5 +4,18 @@
 # Takes a number
 # Returns "Positive", "Negative", or "Zero"
 
+def number(n):
+    if n > 0:
+        return "Positive"
+    elif n == 0:
+        return "Zero"
+    else:
+        return "Negative"
+
+n = int(input("Enter a number :")) 
+result = number(n)
+print("The number is :", result)
+
+
 
 
