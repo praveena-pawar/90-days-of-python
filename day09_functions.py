@@ -43,3 +43,12 @@ print("The total even numbers are :", result)
 #output :
 #The total even numbers are : 3
 
+
+
+
+# Task 3 :
+
+# Write a function that:
+# Takes a list of numbers
+# Finds the largest number
+# Returns it
