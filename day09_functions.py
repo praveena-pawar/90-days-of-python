@@ -52,3 +52,16 @@ print("The total even numbers are :", result)
 # Takes a list of numbers
 # Finds the largest number
 # Returns it
+
+nums = [12, 45, 3, 89, 22]
+
+def large_num(nums):
+    largest_number = nums[0]
+    for n in nums:
+        if n > largest_number:
+            largest_number = n
+
+    return largest_number
+
+result = large_num(nums)
+print("The largest number is :", result)
