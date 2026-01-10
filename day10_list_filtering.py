@@ -33,6 +33,14 @@ print(result)
 
 
 
+# Task 2 : Filter Words by Length
+# Write a function that:
+# Takes a list of words (strings)
+# Returns a new list containing only the words whose length is greater than 4
+
+
+
+
 
 
 
