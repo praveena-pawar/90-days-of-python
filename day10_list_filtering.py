@@ -51,6 +51,8 @@ def length_is_greater_than4(words):
 result = length_is_greater_than4(words)
 print(result)
 
+#output:
+#['python', 'learning']
 
 
 
