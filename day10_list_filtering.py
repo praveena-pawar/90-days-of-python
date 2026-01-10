@@ -63,16 +63,18 @@ print(result)
 # All vowels removed
 # Keep all other characters (including spaces)
 
+def vowels_removed(word):
+    consonants = []
+    for ch in word:
+        if ch.lower() in "aeiou":
+            continue
+        else:
+            consonants.append(ch)
+    
+    return "" .join(consonants)
+
+word = input("Enter a string :")
+result = vowels_removed(word)
+print(result)
 
 
-
-
-
-
-# nums = [1, 4, 7, 10, 3]
-# even = []
-
-# for n in nums:
-#     if n % 2 == 0:
-#         even.append(n)
-# print(even)
