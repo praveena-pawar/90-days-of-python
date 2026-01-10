@@ -38,6 +38,20 @@ print(result)
 # Takes a list of words (strings)
 # Returns a new list containing only the words whose length is greater than 4
 
+words = ["hi", "python", "code", "learning", "AI"]
+
+def length_is_greater_than4(words):
+    long_word = []
+    for ch in words:
+        if len(ch) > 4:
+            long_word.append(ch)
+
+    return long_word
+
+result = length_is_greater_than4(words)
+print(result)
+
+
 
 
 
