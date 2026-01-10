@@ -27,6 +27,8 @@ def get_even_numbers(nums):
 result = get_even_numbers(nums)
 print(result)
 
+#output:
+#[4, 10]
 
 
 
