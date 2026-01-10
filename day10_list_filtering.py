@@ -56,7 +56,12 @@ print(result)
 
 
 
-
+# Task 3 : String Processing with Function
+# Write a function that:
+# Takes a string as input
+# Returns a new string with:
+# All vowels removed
+# Keep all other characters (including spaces)
 
 
 
