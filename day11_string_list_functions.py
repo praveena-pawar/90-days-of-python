@@ -11,3 +11,18 @@
 # Takes a list of words
 # Counts how many words have length greater than 5
 # Returns the count
+
+words = ["python", "code", "learning", "AI", "programming"]
+
+def count_words_longer_than_5(words):      
+        large_count = 0
+        for ch in words:
+                if len(ch) > 5:
+                        large_count += 1
+        
+        return large_count
+
+result = count_words_longer_than_5(words)
+print(result)
+
+
