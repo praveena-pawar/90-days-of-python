@@ -57,3 +57,25 @@ print("The total number of vowels across all words :", result)
 # Task 3 :
 
 # Return the word that has the maximum number of vowels
+
+words = ["python", "education", "AI", "awesome"]
+
+def maximum_number_of_vowels(words):
+    max_count = 0
+    max_word = ""
+
+    for word in words:
+        count_vowels = 0  
+
+        for ch in word:
+            if ch.lower() in "aeiou":
+                count_vowels += 1
+
+        if count_vowels > max_count:
+            max_count = count_vowels
+            max_word = word
+
+    return max_word
+
+result = maximum_number_of_vowels(words)
+print(result)
