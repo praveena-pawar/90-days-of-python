@@ -35,3 +35,17 @@ print(result)
 # Takes a list of words
 # Counts the total number of vowels across all words
 # Returns the count
+
+words = ["python", "is", "awesome"]
+
+def count_total_number_of_vowels(words):
+        total_vowels = 0
+        for word in words:
+                 for ch in word:
+                          if ch.lower() in "aeiou":
+                                  total_vowels += 1
+                             
+        return total_vowels
+
+result = count_total_number_of_vowels(words)
+print("The total number of vowels across all words :", result)
