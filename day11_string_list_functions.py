@@ -24,6 +24,8 @@ def count_words_longer_than_5(words):
 
 result = count_words_longer_than_5(words)
 print(result)
+#output:
+#3
 
 
 
