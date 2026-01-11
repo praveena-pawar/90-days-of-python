@@ -26,3 +26,12 @@ result = count_words_longer_than_5(words)
 print(result)
 
 
+
+
+
+# Task 2 : Count Vowels in Each Word
+
+# Write a function that:
+# Takes a list of words
+# Counts the total number of vowels across all words
+# Returns the count
