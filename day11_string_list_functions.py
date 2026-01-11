@@ -50,7 +50,8 @@ def count_total_number_of_vowels(words):
 result = count_total_number_of_vowels(words)
 print("The total number of vowels across all words :", result)
 
-
+#output:
+#The total number of vowels across all words : 6
 
 
 
@@ -79,3 +80,6 @@ def maximum_number_of_vowels(words):
 
 result = maximum_number_of_vowels(words)
 print(result)
+
+#output:
+#education
