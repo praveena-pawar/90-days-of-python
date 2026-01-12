@@ -86,3 +86,29 @@ print("The total odd number are:", odd)
 # Ignores vowels
 # Ignores case
 # Returns only the word
+
+words = ["python", "education", "AI", "strength"]
+
+def maximum_number_of_consonants(words):
+    max_count = 0
+    max_word = ""
+
+    for word in words:
+        count = 0
+        for ch in word:
+            if ch.isalpha() and ch.lower() not in "aeiou":
+                count += 1
+
+        if count > max_count:
+            max_count = count
+            max_word = word
+
+    return max_word
+
+
+result = maximum_number_of_consonants(words)
+print(result)
+
+    
+
+
