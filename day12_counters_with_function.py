@@ -43,3 +43,13 @@ print("Total zero number are :", zero)
 # Total positive number are : 3
 # Total negative number are : 2
 # Total zero number are : 2
+
+
+
+
+# Task 2 :
+
+# You are given a list of numbers.
+# Write a function that:
+# Counts how many numbers are even
+# Counts how many numbers are odd
