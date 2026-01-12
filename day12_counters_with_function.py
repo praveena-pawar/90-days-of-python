@@ -53,3 +53,20 @@ print("Total zero number are :", zero)
 # Write a function that:
 # Counts how many numbers are even
 # Counts how many numbers are odd
+
+nums = [10, 3, 7, 4, 8, 9]
+
+def count_even_odd(nums):
+    total_even = 0
+    total_odd = 0
+    for n in nums:
+        if n % 2 == 0:
+            total_even += 1
+        else:
+            total_odd += 1
+
+    return total_even, total_odd
+
+even, odd = count_even_odd(nums)
+print("The total even number are :", even)
+print("The total odd number are:", odd)
