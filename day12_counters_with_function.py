@@ -38,3 +38,8 @@ positive, negative, zero = count_nums(nums)
 print("Total positive number are :", positive)
 print("Total negative number are :", negative)
 print("Total zero number are :", zero)
+
+#output:
+# Total positive number are : 3
+# Total negative number are : 2
+# Total zero number are : 2
