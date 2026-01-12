@@ -109,6 +109,8 @@ def maximum_number_of_consonants(words):
 result = maximum_number_of_consonants(words)
 print(result)
 
+#output:
+
     
 
 
