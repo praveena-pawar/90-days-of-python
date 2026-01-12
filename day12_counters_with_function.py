@@ -70,3 +70,7 @@ def count_even_odd(nums):
 even, odd = count_even_odd(nums)
 print("The total even number are :", even)
 print("The total odd number are:", odd)
+
+#output:
+#The total even number are : 3
+#The total odd number are : 3
