@@ -74,3 +74,15 @@ print("The total odd number are:", odd)
 #output:
 #The total even number are : 3
 #The total odd number are : 3
+
+
+
+
+# Task 3 :
+
+# You are given a list of words.
+# Write a function that:
+# Finds which word has the maximum number of consonants
+# Ignores vowels
+# Ignores case
+# Returns only the word
