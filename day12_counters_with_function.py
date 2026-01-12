@@ -14,6 +14,27 @@
 
 # Given a list of numbers, write a function that:
 # Counts how many are positive
-# Counts how many are negativ
+# Counts how many are negative
 # Counts how many are zero
 # Return all three values.
+
+nums = [5, 8, -2, 0, -4, 3, 0]
+
+def count_nums(nums):
+    total_positive = 0
+    total_negative = 0
+    total_zero = 0
+    for n in nums:
+        if n > 0:
+            total_positive += 1
+        elif n < 0:
+            total_negative += 1
+        else:
+            total_zero += 1
+        
+    return total_positive, total_negative, total_zero
+
+positive, negative, zero = count_nums(nums)
+print("Total positive number are :", positive)
+print("Total negative number are :", negative)
+print("Total zero number are :", zero)
