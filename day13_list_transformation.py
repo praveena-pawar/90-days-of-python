@@ -24,3 +24,6 @@ def squares_of_positive_num(nums):
 
 result = squares_of_positive_num(nums)
 print(result)
+
+#output:
+# [4, 16, 25, 36]
