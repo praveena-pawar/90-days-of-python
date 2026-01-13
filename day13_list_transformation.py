@@ -52,3 +52,6 @@ def divisible_by_both_3_5(nums):
 
 result = divisible_by_both_3_5(nums)
 print("Numbers that are divisible by both 3 and 5 :", result)
+
+#output:
+#Numbers that are divisible by both 3 and 5 : [15, 30, 45, 60]
