@@ -68,3 +68,16 @@ print("Numbers that are divisible by both 3 and 5 :", result)
 # Stores only the words that start with a vowel
 # Ignores case (A/a, E/e, etc.)
 # Returns the new list
+
+words = ["Apple", "banana", "Orange", "grape", "umbrella", "Ink"]
+
+def words_starts_with_vowel(words):
+    vowel_words = []
+    for ch in words:
+            if ch[0].lower() in "aeiou":
+                vowel_words.append(ch)
+              
+    return vowel_words
+
+result = words_starts_with_vowel(words)
+print(result)
