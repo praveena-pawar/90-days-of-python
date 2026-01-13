@@ -55,3 +55,16 @@ print("Numbers that are divisible by both 3 and 5 :", result)
 
 #output:
 #Numbers that are divisible by both 3 and 5 : [15, 30, 45, 60]
+
+
+
+
+
+# Task 3 :
+
+# You are given a list of strings.
+# Write a function that:
+# Creates a new list
+# Stores only the words that start with a vowel
+# Ignores case (A/a, E/e, etc.)
+# Returns the new list
