@@ -23,10 +23,10 @@ def squares_of_positive_num(nums):
     return positive_num
 
 result = squares_of_positive_num(nums)
-print(result)
+print("Squares of only positive numbers :",result)
 
 #output:
-# [4, 16, 25, 36]
+#Squares of only positive numbers : [4, 16, 25, 36]
 
 
 
@@ -80,4 +80,7 @@ def words_starts_with_vowel(words):
     return vowel_words
 
 result = words_starts_with_vowel(words)
-print(result)
+print("Only the words that start with a vowel :", result)
+
+#output:
+#Only the words that start with a vowel : ['Apple', 'Orange', 'umbrella', 'Ink']
