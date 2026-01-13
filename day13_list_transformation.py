@@ -27,3 +27,15 @@ print(result)
 
 #output:
 # [4, 16, 25, 36]
+
+
+
+
+
+# Task 2 : 
+
+# You are given a list of numbers.
+# Write a function that:
+# Creates a new list
+# Stores only numbers that are divisible by both 3 and 5
+# Returns the new list
