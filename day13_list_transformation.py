@@ -39,3 +39,16 @@ print(result)
 # Creates a new list
 # Stores only numbers that are divisible by both 3 and 5
 # Returns the new list
+
+nums = [15, 9, 10, 30, 22, 45, 60]
+
+def divisible_by_both_3_5(nums):
+    numbers = []
+    for n in nums:
+        if (n % 3 == 0) and (n % 5 == 0):
+            numbers.append(n)
+    
+    return numbers
+
+result = divisible_by_both_3_5(nums)
+print("Numbers that are divisible by both 3 and 5 :", result)
