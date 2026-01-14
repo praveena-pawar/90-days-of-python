@@ -35,3 +35,16 @@ def count_characters_appears(word):
 
 result = count_characters_appears(word)
 print(result)
+
+
+
+
+
+# Task 2 : Word Frequency Counter
+
+# Write a function that:
+# Takes a sentence (string)
+# Counts how many times each word appears
+# Returns a dictionary
+# Ignore case (Python == python)
+# Ignore extra spaces
