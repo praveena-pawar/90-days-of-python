@@ -48,3 +48,21 @@ print(result)
 # Returns a dictionary
 # Ignore case (Python == python)
 # Ignore extra spaces
+
+sentence = "Python is easy and Python is powerful"
+
+def count_word_appears(sentence):
+    word_count = {}
+    words = sentence.lower().split()
+
+    for word in words:
+        if word in word_count:
+            word_count[word] += 1
+        else:
+            word_count[word] = 1
+
+    return word_count
+
+result = count_word_appears(sentence)
+print(result)
+    
