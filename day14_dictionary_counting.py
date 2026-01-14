@@ -77,3 +77,28 @@ print(result)
 # Finds the word that appears the most times
 # Ignores case
 # Returns only the word (not the count)
+
+sentence = "AI is the future and AI is powerful"
+
+def most_frequent_word(sentence):
+    word_count = {}
+    words = sentence.lower().split()
+
+    for word in words:
+        if word in word_count:
+            word_count[word] += 1
+        else:
+            word_count[word] = 1
+
+    max_count = 0
+    max_word = ""
+
+    for word in word_count:
+        if word_count[word] > max_count:
+            max_count = word_count[word]
+            max_word = word
+
+    return max_word
+
+result = most_frequent_word(sentence)
+print(result)
