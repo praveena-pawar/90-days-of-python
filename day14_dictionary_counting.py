@@ -9,3 +9,13 @@ for ch in text:
         freq[ch] = 1
         
 print(freq)
+
+
+
+
+# Task 1 :
+
+# Write a function that:
+# Takes a string
+# Counts how many times each character appears
+# Returns a dictionary
