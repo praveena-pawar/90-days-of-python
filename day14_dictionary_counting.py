@@ -65,4 +65,15 @@ def count_word_appears(sentence):
 
 result = count_word_appears(sentence)
 print(result)
-    
+
+
+
+
+
+# Task 3 : 
+
+# Write a function that:
+# Takes a sentence (string)
+# Finds the word that appears the most times
+# Ignores case
+# Returns only the word (not the count)
