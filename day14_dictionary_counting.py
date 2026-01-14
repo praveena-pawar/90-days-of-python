@@ -19,3 +19,19 @@ print(freq)
 # Takes a string
 # Counts how many times each character appears
 # Returns a dictionary
+
+word = "hello world"
+
+def count_characters_appears(word):
+    characters = {}
+    for ch in word:
+        if ch == " ":
+            continue
+        if ch in characters:
+            characters[ch] += 1
+        else:
+            characters[ch] = 1
+    return characters
+
+result = count_characters_appears(word)
+print(result)
