@@ -102,3 +102,6 @@ def most_frequent_word(sentence):
 
 result = most_frequent_word(sentence)
 print(result)
+
+#output:
+#ai
