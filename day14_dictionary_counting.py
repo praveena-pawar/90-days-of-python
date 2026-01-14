@@ -66,6 +66,9 @@ def count_word_appears(sentence):
 result = count_word_appears(sentence)
 print(result)
 
+#output:
+# {'python': 2, 'is': 2, 'easy': 1, 'and': 1, 'powerful': 1}
+
 
 
 
