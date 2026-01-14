@@ -10,6 +10,9 @@ for ch in text:
         
 print(freq)
 
+#output;
+#{'b': 1, 'a': 3, 'n': 2}
+
 
 
 
@@ -35,6 +38,9 @@ def count_characters_appears(word):
 
 result = count_characters_appears(word)
 print(result)
+
+#output:
+#{'h': 1, 'e': 1, 'l': 3, 'o': 2, 'w': 1, 'r': 1, 'd': 1}
 
 
 
