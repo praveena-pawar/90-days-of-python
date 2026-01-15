@@ -30,3 +30,14 @@ print(repeated_characters(text))
 
 #output:
 #['r', 'g', 'm']
+
+
+
+
+# Task 2:
+
+# You are given a list of numbers.
+# Write a function that:
+# Counts how many times each number appears
+# Returns a dictionary
+# Then returns a list of numbers that appear exactly once
