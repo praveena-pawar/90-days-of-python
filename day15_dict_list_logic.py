@@ -27,3 +27,6 @@ def repeated_characters(text):
     return result
 
 print(repeated_characters(text))
+
+#output:
+#['r', 'g', 'm']
