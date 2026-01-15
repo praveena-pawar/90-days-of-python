@@ -63,3 +63,14 @@ print(numbers_appears(numbers))
 
 #output:
 #[1, 3, 5]
+
+
+
+
+# Task 3:
+
+# Write a function that:
+# Finds the first non-repeating character
+# Returns that character
+# If all characters repeat, return "None"
+# Ignore spaces
