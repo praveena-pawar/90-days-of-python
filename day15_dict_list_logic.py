@@ -41,3 +41,22 @@ print(repeated_characters(text))
 # Counts how many times each number appears
 # Returns a dictionary
 # Then returns a list of numbers that appear exactly once
+
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+def numbers_appears(numbers):
+    number_count = {}
+    for n in numbers:
+        if n in number_count:
+            number_count[n] += 1
+        else:
+            number_count[n] = 1
+
+    result = []
+    for n in number_count:
+        if number_count[n] == 1:
+            result.append(n)
+
+    return result
+
+print(numbers_appears(numbers))
