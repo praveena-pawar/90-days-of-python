@@ -75,8 +75,8 @@ print(numbers_appears(numbers))
 # If all characters repeat, return "None"
 # Ignore spaces
 
-
 text = "swiss"
+
 def first_non_repeating_char(text):
     freq = {}
 
