@@ -74,3 +74,30 @@ print(numbers_appears(numbers))
 # Returns that character
 # If all characters repeat, return "None"
 # Ignore spaces
+
+
+text = "swiss"
+def first_non_repeating_char(text):
+    freq = {}
+
+    # Step 1: Build frequency dictionary (ignore spaces)
+    for ch in text:
+        if ch == " ":
+            continue
+        if ch in freq:
+            freq[ch] += 1
+        else:
+            freq[ch] = 1
+
+    # Step 2: Find first character with frequency 1
+    for ch in text:
+        if ch == " ":
+            continue
+        if freq[ch] == 1:
+            return ch
+
+    return "None"
+
+
+result = first_non_repeating_char(text)
+print(result)
