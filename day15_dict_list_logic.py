@@ -60,3 +60,6 @@ def numbers_appears(numbers):
     return result
 
 print(numbers_appears(numbers))
+
+#output:
+#[1, 3, 5]
