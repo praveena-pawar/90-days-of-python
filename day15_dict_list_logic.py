@@ -101,3 +101,6 @@ def first_non_repeating_char(text):
 
 result = first_non_repeating_char(text)
 print(result)
+
+#output:
+#w
