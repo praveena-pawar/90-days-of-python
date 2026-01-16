@@ -52,6 +52,9 @@ def vowels_consonants_using_dictionary(word):
 
 print(vowels_consonants_using_dictionary(word))
 
+#output:
+#{'vowels': 3, 'consonants': 7}
+
 
 
 
