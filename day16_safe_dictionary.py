@@ -19,3 +19,16 @@ def character_frequency(word):
     return freq
 
 print(character_frequency("apple"))
+
+
+
+
+
+# Task 2 :
+
+# Write a function that:
+# Takes a string
+# Counts vowels and consonants using a dictionary
+# Ignores spaces
+# Ignores case (A = a)
+# Returns the dictionary in this format:
