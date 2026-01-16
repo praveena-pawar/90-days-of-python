@@ -62,3 +62,25 @@ print(vowels_consonants_using_dictionary(word))
 # Finds the character with the maximum frequency
 # Returns that character
 # If there is a tie, return any one of them
+
+text = "banana"
+
+def max_frequency_char(text):
+    freq = {}
+
+    for ch in text:
+        if ch == " ":
+            continue
+        freq[ch] = freq.get(ch, 0) + 1
+
+    max_count = 0
+    max_char = ""
+
+    for ch in freq:
+        if freq[ch] > max_count:
+            max_count = freq[ch]
+            max_char = ch
+
+    return max_char
+
+print(max_frequency_char(text))
