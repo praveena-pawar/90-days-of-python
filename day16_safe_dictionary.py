@@ -90,3 +90,5 @@ def max_frequency_char(text):
     return max_char
 
 print(max_frequency_char(text))
+
+#output:
