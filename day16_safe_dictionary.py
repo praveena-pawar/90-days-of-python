@@ -48,3 +48,17 @@ def vowels_consonants_using_dictionary(word):
     return frq
 
 print(vowels_consonants_using_dictionary(word))
+
+
+
+
+
+
+# Task 3 :
+
+# Takes a string
+# Counts frequency of each character (ignore spaces)
+# Uses dict.get()
+# Finds the character with the maximum frequency
+# Returns that character
+# If there is a tie, return any one of them
