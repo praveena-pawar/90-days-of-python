@@ -32,3 +32,19 @@ print(character_frequency("apple"))
 # Ignores spaces
 # Ignores case (A = a)
 # Returns the dictionary in this format:
+
+word = "Hello World"
+
+def vowels_consonants_using_dictionary(word):
+    frq = {"vowels": 0, "consonants": 0}
+    for ch in word.lower():
+        if ch == " ":
+            continue
+        if ch in "aeiou":
+            frq["vowels"] = frq.get("vowels", 0) + 1
+        else:
+            frq["consonants"] = frq.get("consonants", 1) + 1
+
+    return frq
+
+print(vowels_consonants_using_dictionary(word))
