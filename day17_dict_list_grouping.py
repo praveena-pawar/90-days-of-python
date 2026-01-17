@@ -32,3 +32,16 @@ print(group_even_odd(nums))
 # The key should be the length of the word
 # The value should be a list of words with that length
 # Return the dictionary
+
+words = ["hi", "hello", "bye", "python", "code"]
+
+def group_words_by_length(words):
+    result = {}
+
+    for word in words:
+        length = len(word)
+        result[length] = result.get(length, []) + [word]
+
+    return result
+
+print(group_words_by_length(words))
