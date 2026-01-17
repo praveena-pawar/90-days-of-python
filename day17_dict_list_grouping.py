@@ -83,3 +83,5 @@ def group_numbers(nums):
     return result
 
 print(group_numbers(nums))
+
+#output:
