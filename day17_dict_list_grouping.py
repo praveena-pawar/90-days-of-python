@@ -18,4 +18,7 @@ def group_even_odd(nums):
     return result
 
 print(group_even_odd(nums))
+
+#output:
+#{'even': [2, 4], 'odd': [1, 3, 5]}
     
