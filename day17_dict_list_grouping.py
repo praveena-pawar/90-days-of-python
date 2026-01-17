@@ -62,3 +62,24 @@ print(group_words_by_length(words))
 # "zero"
 # Each key should map to a list of numbers in that category
 # Return the dictionary
+
+nums = [3, -1, 0, 5, -7, 0, 2]
+
+def group_numbers(nums):
+    result = {
+        "positive": [],
+        "negative": [],
+        "zero": []
+    }
+
+    for num in nums:
+        if num > 0:
+            result["positive"].append(num)
+        elif num < 0:
+            result["negative"].append(num)
+        else:
+            result["zero"].append(num)
+
+    return result
+
+print(group_numbers(nums))
