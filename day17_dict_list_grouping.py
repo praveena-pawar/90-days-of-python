@@ -45,3 +45,6 @@ def group_words_by_length(words):
     return result
 
 print(group_words_by_length(words))
+
+#output:
+#{2: ['hi'], 5: ['hello'], 3: ['bye'], 6: ['python'], 4: ['code']}
