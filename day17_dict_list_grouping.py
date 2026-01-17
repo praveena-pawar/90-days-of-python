@@ -21,4 +21,14 @@ print(group_even_odd(nums))
 
 #output:
 #{'even': [2, 4], 'odd': [1, 3, 5]}
-    
+
+
+
+
+# Task 2 :
+
+# Write a function that:
+# Groups words into a dictionary based on word length
+# The key should be the length of the word
+# The value should be a list of words with that length
+# Return the dictionary
