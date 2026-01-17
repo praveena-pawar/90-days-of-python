@@ -48,3 +48,17 @@ print(group_words_by_length(words))
 
 #output:
 #{2: ['hi'], 5: ['hello'], 3: ['bye'], 6: ['python'], 4: ['code']}
+
+
+
+
+
+# Task 3 :
+
+# Write a function that:
+# Groups numbers into a dictionary with keys:
+# "positive"
+# "negative"
+# "zero"
+# Each key should map to a list of numbers in that category
+# Return the dictionary
