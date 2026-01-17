@@ -85,3 +85,4 @@ def group_numbers(nums):
 print(group_numbers(nums))
 
 #output:
+#{'positive': [3, 5, 2], 'negative': [-1, -7], 'zero': [0, 0]}
