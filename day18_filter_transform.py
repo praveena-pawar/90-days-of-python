@@ -59,5 +59,6 @@ def characters_to_uppercase(word):
     
     return"".join(text)
 
-print(characters_to_uppercase(word))
+result = characters_to_uppercase(word)
+print("Removed all vowels and converted reaminig characters to uppercase :", result)
 
