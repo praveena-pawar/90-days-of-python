@@ -19,3 +19,18 @@ print(result)
 # Keeps only positive numbers
 # Stores their squares in a list
 # Returns the list
+
+nums = [-2, 3, 0, 4, -1, 5]
+
+def square_of_positive_number(nums):
+    result = []
+    for n in nums:
+        if n > 0:
+            result.append(n * n)
+        
+    return result
+
+positive_nums = square_of_positive_number(nums)
+print("The square of positive numbers are :", positive_nums)
+
+ 
