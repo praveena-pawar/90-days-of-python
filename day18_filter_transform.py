@@ -35,3 +35,14 @@ print("The square of positive numbers are :", positive_nums)
 
 #output:
 #The square of positive numbers are : [9, 16, 25]
+
+
+
+
+# Task 2 :
+
+# Write a function that:
+# Takes a string
+# Removes all vowels
+# Converts remaining characters to uppercase
+# Returns the final string
