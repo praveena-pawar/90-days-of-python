@@ -46,3 +46,18 @@ print("The square of positive numbers are :", positive_nums)
 # Removes all vowels
 # Converts remaining characters to uppercase
 # Returns the final string
+
+word = "Python is fun"
+
+def characters_to_uppercase(word):
+    text = []
+    for ch in word:
+        if ch.lower() in "aeiou":
+            continue
+        else :
+            text.append(ch.upper())
+    
+    return"".join(text)
+
+print(characters_to_uppercase(word))
+
