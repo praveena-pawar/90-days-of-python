@@ -65,3 +65,13 @@ print("Removed all vowels and converted reaminig characters to uppercase :", res
 #output:
 #Removed all vowels and converted reaminig characters to uppercase : PYTHN S FN
 
+
+
+
+# Task 3 :
+
+# Write a function that:
+# Takes a list of integers
+# Keeps only even numbers
+# Stores their cubes in a dictionary
+# Dictionary format:
