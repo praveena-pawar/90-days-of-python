@@ -10,3 +10,12 @@ for n in nums:
 
 print(result)
 
+
+
+# Task 1 :
+
+# Write a function that:
+# Takes a list of numbers
+# Keeps only positive numbers
+# Stores their squares in a list
+# Returns the list
