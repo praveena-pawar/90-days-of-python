@@ -62,3 +62,6 @@ def characters_to_uppercase(word):
 result = characters_to_uppercase(word)
 print("Removed all vowels and converted reaminig characters to uppercase :", result)
 
+#output:
+#Removed all vowels and converted reaminig characters to uppercase : PYTHN S FN
+
