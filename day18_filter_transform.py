@@ -33,4 +33,5 @@ def square_of_positive_number(nums):
 positive_nums = square_of_positive_number(nums)
 print("The square of positive numbers are :", positive_nums)
 
- 
+#output:
+#The square of positive numbers are : [9, 16, 25]
