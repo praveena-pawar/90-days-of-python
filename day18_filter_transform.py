@@ -75,3 +75,16 @@ print("Removed all vowels and converted reaminig characters to uppercase :", res
 # Keeps only even numbers
 # Stores their cubes in a dictionary
 # Dictionary format:
+
+nums = [1, 2, 3, 4, 6]
+
+def cubes_in_a_dictionary(nums):
+    even_nums = {}
+    for n in nums:
+        if n % 2 == 0:
+            even_nums[n] = n * n * n
+    
+    return even_nums
+
+result = cubes_in_a_dictionary(nums)
+print(result)
