@@ -88,3 +88,6 @@ def cubes_in_a_dictionary(nums):
 
 result = cubes_in_a_dictionary(nums)
 print(result)
+
+#output:
+#{2: 8, 4: 64, 6: 216}
