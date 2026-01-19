@@ -71,3 +71,21 @@ print(most_frequent_number(nums))
 # Counts frequency of each word (ignore case)
 # Returns a list of words that appear only once
 # Ignore extra spaces
+
+sentence = "Python is fun and Python is powerful"
+
+def words_appear_once(sentence):
+    freq = {}
+    words = sentence.lower().split()
+
+    for word in words:
+        freq[word] = freq.get(word, 0) + 1
+
+    result = []
+    for word in freq:
+        if freq[word] == 1:
+            result.append(word)
+
+    return result
+
+print(words_appear_once(sentence))
