@@ -91,3 +91,4 @@ def words_appear_once(sentence):
 print(words_appear_once(sentence))
 
 #output:
+#['fun', 'and', 'powerful']
