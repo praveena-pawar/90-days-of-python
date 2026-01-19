@@ -57,3 +57,6 @@ def most_frequent_number(nums):
     return max_num
 
 print(most_frequent_number(nums))
+
+#output:
+#3
