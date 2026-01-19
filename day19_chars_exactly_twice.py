@@ -37,3 +37,23 @@ print(characters_appear_twice(text))
 # Counts how many times each number appears
 # Returns the number that appears the most
 # If there is a tie, return any one
+
+nums = [1, 2, 2, 3, 3, 3, 4]
+
+def most_frequent_number(nums):
+    freq = {}
+
+    for n in nums:
+        freq[n] = freq.get(n, 0) + 1
+
+    max_count = 0
+    max_num = None
+
+    for n in freq:
+        if freq[n] > max_count:
+            max_count = freq[n]
+            max_num = n
+
+    return max_num
+
+print(most_frequent_number(nums))
