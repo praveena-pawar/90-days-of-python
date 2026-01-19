@@ -23,3 +23,6 @@ def characters_appear_twice(text):
     return result
 
 print(characters_appear_twice(text))
+
+#output:
+#['c']
