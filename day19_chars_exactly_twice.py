@@ -26,3 +26,14 @@ print(characters_appear_twice(text))
 
 #output:
 #['c']
+
+
+
+
+# Task 2 :
+
+# Write a function that:
+# Takes a list of integers
+# Counts how many times each number appears
+# Returns the number that appears the most
+# If there is a tie, return any one
