@@ -60,3 +60,14 @@ print(most_frequent_number(nums))
 
 #output:
 #3
+
+
+
+
+# Task 3 :
+
+# Write a function that:
+# Takes a string
+# Counts frequency of each word (ignore case)
+# Returns a list of words that appear only once
+# Ignore extra spaces
