@@ -107,3 +107,5 @@ def even_or_odd(nums):
 
 print(even_or_odd([2, 4, 6, 1, 3]))
 print(even_or_odd([1, 3, 5, 2]))
+
+#output:
