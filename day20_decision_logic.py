@@ -52,3 +52,23 @@ print(max_category(nums))
 # "consonants"
 # Ignore spaces
 # Ignore case
+
+def vowel_vs_consonant(text):
+    counts = {"vowels": 0, "consonants": 0}
+
+    for ch in text.lower():
+        if ch == " ":
+            continue
+        if ch in "aeiou":
+            counts["vowels"] += 1
+        elif ch.isalpha():
+            counts["consonants"] += 1
+
+    if counts["vowels"] > counts["consonants"]:
+        return "vowels"
+    else:
+        return "consonants"
+
+
+print(vowel_vs_consonant("education"))
+print(vowel_vs_consonant("python"))
