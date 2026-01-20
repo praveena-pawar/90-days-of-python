@@ -76,3 +76,17 @@ print(vowel_vs_consonant("python"))
 #output:
 #vowels
 #consonsnts
+
+
+
+
+# Task 3 :
+
+# Write a function that:
+# Takes a list of integers
+# Groups them into a dictionary with keys:
+# "even"
+# "odd"
+# Then decides which group has more elements
+# Returns only the string:
+# "even" or "odd"
