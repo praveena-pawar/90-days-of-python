@@ -72,3 +72,7 @@ def vowel_vs_consonant(text):
 
 print(vowel_vs_consonant("education"))
 print(vowel_vs_consonant("python"))
+
+#output:
+#vowels
+#consonsnts
