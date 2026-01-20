@@ -89,4 +89,21 @@ print(vowel_vs_consonant("python"))
 # "odd"
 # Then decides which group has more elements
 # Returns only the string:
-# "even" or "odd"
+# "even" or "odd
+
+def even_or_odd(nums):
+    groups = {"even": 0, "odd": 0}
+
+    for n in nums:
+        if n % 2 == 0:
+            groups["even"] += 1
+        else:
+            groups["odd"] += 1
+
+    if groups["even"] >= groups["odd"]:
+        return "even"
+    else:
+        return "odd"
+
+print(even_or_odd([2, 4, 6, 1, 3]))
+print(even_or_odd([1, 3, 5, 2]))
