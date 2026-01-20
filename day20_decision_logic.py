@@ -37,3 +37,18 @@ print(max_category(nums))
 
 #output:
 #Zero
+
+
+
+
+
+# Task 2 :
+
+# Write a function that:
+# Takes a string
+# Counts how many vowels and consonants it has
+# Returns which one is greater as a string:
+# "vowels"
+# "consonants"
+# Ignore spaces
+# Ignore case
