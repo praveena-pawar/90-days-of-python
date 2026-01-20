@@ -34,3 +34,6 @@ def max_category(nums):
 
 
 print(max_category(nums))
+
+#output:
+#Zero
