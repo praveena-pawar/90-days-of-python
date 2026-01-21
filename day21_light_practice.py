@@ -14,3 +14,5 @@ def count_greater_than_10(nums):
     return count
 
 print(count_greater_than_10(nums))
+
+#output:
