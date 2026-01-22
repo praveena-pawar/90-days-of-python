@@ -38,4 +38,26 @@ print(count_numbers(nums))
 # consonants
 # digits
 # Ignore spaces
-# Return the result as a dictionary
+# Return the result as a dictionary 
+
+text = "Python3 is fun2"
+
+def count_characters(text):
+    result = {"vowels": 0,"consonants": 0,"digits": 0 }
+
+    vowels = "aeiouAEIOU"
+
+    for ch in text:
+        if ch == " ":
+            continue
+        elif ch.isdigit():
+            result["digits"] += 1
+        elif ch.isalpha():
+            if ch in vowels:
+                result["vowels"] += 1
+            else:
+                result["consonants"] += 1
+
+    return result
+
+print(count_characters(text))
