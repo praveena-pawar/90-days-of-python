@@ -61,3 +61,6 @@ def count_characters(text):
     return result
 
 print(count_characters(text))
+
+#output:
+#{'vowels': 3, 'consonants': 8, 'digits': 2}
