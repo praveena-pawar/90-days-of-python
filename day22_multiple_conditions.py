@@ -111,3 +111,4 @@ def count_numbers(nums):
 print(count_numbers(nums))
 
 #output:
+#{'positive_even': 3, 'positive_odd': 1, 'negative_even': 1, 'negative_odd': 2}
