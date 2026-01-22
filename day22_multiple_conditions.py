@@ -64,3 +64,20 @@ print(count_characters(text))
 
 #output:
 #{'vowels': 3, 'consonants': 8, 'digits': 2}
+
+
+
+
+
+
+# Task 3 :
+
+# Write a function that:
+# Takes a list of integers
+# Counts how many numbers are:
+# positive even
+# positive odd
+# negative even
+# negative odd
+# Ignore 0
+# Return the result as a dictionary
