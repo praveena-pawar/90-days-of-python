@@ -81,3 +81,31 @@ print(count_characters(text))
 # negative odd
 # Ignore 0
 # Return the result as a dictionary
+
+nums = [2, -3, 4, -6, 7, -5, 0, 8]
+
+def count_numbers(nums):
+    result = {
+        "positive_even": 0,
+        "positive_odd": 0,
+        "negative_even": 0,
+        "negative_odd": 0
+    }
+
+    for n in nums:
+        if n == 0:
+            continue
+        elif n > 0:
+            if n % 2 == 0:
+                result["positive_even"] += 1
+            else:
+                result["positive_odd"] += 1
+        else:  # n < 0
+            if n % 2 == 0:
+                result["negative_even"] += 1
+            else:
+                result["negative_odd"] += 1
+
+    return result
+
+print(count_numbers(nums))
