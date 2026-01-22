@@ -100,7 +100,7 @@ def count_numbers(nums):
                 result["positive_even"] += 1
             else:
                 result["positive_odd"] += 1
-        else:  # n < 0
+        else:  
             if n % 2 == 0:
                 result["negative_even"] += 1
             else:
@@ -109,3 +109,5 @@ def count_numbers(nums):
     return result
 
 print(count_numbers(nums))
+
+#output:
