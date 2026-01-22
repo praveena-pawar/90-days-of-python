@@ -24,3 +24,18 @@ print(count_numbers(nums))
 
 #output:
 #{'positive_even': 2, 'negative_odd': 2}
+
+
+
+
+
+# Task 2 :
+
+# Write a function that:
+# Takes a string
+# Counts how many characters are:
+# vowels
+# consonants
+# digits
+# Ignore spaces
+# Return the result as a dictionary
