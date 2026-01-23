@@ -51,5 +51,8 @@ def classify_frequency(nums):
 
 print(classify_frequency(nums))
 
+#output:
+#{'positive': 3, 'negative': 3, 'zero': 3}
+
 
 
