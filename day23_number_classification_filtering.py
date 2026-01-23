@@ -57,6 +57,7 @@ print(classify_frequency(nums))
 
 
 
+
 # Task 3 :
 
 # Final Problem: Category-wise Counting
@@ -66,6 +67,41 @@ print(classify_frequency(nums))
 # "negative_even"
 # "negative_odd"
 # "zero"
+
+nums = [2, -3, 0, 4, -6, 7, -5, 0, 8]
+
+def full_classification(nums):
+    result = {
+    "positive_even": 0,
+    "positive_odd": 0,
+    "negative_even": 0,
+    "negative_odd": 0,
+    "zero": 0
+     }
+    for n in nums:
+        if n == 0:
+            result["zero"] += 1
+        elif n > 0:
+            if n % 2 == 0:
+                result["positive_even"] +=1
+            else:
+                result["positive_odd"] += 1
+        
+        else:
+            if n % 2 == 0:
+                result["negative_even"] +=1
+            else:
+                result["negative_odd"] += 1
+        
+    return result
+    
+print(full_classification(nums))
+            
+
+
+
+
+
 
 
 
