@@ -3,3 +3,19 @@
 # From a list of numbers, return only:
 # positive odd numbers
 # negative even numbers
+
+nums = nums = [2, -3, 4, -6, 7, -5, 0, 8, -10, 11]
+
+def filter_numbers(nums):
+    result = []
+    for n in nums:
+        if n == 0:
+            continue
+        if (n < 0) and (n % 2 == 0):
+            result.append(n)
+        elif (n > 0) and (n % 2 != 0):
+            result.append(n)
+
+    return result
+
+print(filter_numbers(nums))
