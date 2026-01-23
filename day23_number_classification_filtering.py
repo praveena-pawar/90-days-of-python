@@ -34,6 +34,22 @@ print(filter_numbers(nums))
 # negative numbers
 # zeros
 
+nums = nums = [2, -3, 0, 4, 0, -1, 5, -6, 0]
+
+def classify_frequency(nums):
+    freq = {"positive": 0, "negative": 0, "zero": 0}
+
+    for n in nums:
+        if n > 0:
+            freq["positive"] += 1
+        elif n == 0:
+            freq["zero"] += 1
+        else:
+            freq["negative"] += 1
+
+    return freq
+
+print(classify_frequency(nums))
 
 
 
