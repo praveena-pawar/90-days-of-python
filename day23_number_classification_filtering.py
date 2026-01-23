@@ -96,6 +96,9 @@ def full_classification(nums):
     return result
     
 print(full_classification(nums))
+
+#output:
+
             
 
 
