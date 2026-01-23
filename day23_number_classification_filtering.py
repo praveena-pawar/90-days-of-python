@@ -19,3 +19,6 @@ def filter_numbers(nums):
     return result
 
 print(filter_numbers(nums))
+
+#output:
+#[-6, 7, -10, 11]
