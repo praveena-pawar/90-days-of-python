@@ -22,3 +22,18 @@ print(filter_numbers(nums))
 
 #output:
 #[-6, 7, -10, 11]
+
+
+
+
+
+# Task 2 :
+
+# Given a list of integers, create a dictionary that stores the frequency of:
+# positive numbers
+# negative numbers
+# zeros
+
+
+
+
