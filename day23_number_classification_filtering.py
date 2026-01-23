@@ -98,6 +98,7 @@ def full_classification(nums):
 print(full_classification(nums))
 
 #output:
+#{'positive_even': 3, 'positive_odd': 1, 'negative_even': 1, 'negative_odd': 2, 'zero': 2}
 
             
 
