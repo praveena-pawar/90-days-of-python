@@ -56,3 +56,16 @@ print(classify_frequency(nums))
 
 
 
+
+# Task 3 :
+
+# Final Problem: Category-wise Counting
+# Given a list of numbers, create a dictionary that stores counts of:
+# "positive_even"
+# "positive_odd"
+# "negative_even"
+# "negative_odd"
+# "zero"
+
+
+
