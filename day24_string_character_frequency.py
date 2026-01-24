@@ -75,3 +75,6 @@ def first_non_repeating_char(s):
 
 
 print(first_non_repeating_char("datascience"))
+
+#output :
+
