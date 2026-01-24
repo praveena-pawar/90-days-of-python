@@ -47,3 +47,6 @@ def count_vowels_consonants(word):
     return freq_count
 
 print(count_vowels_consonants("datascience"))
+
+#output:
+#{'vowels': 5, 'consonants': 6}
