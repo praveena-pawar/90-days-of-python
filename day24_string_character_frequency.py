@@ -23,3 +23,6 @@ def chr_frequency(s):
     return freq
 
 print(chr_frequency(s))
+
+#output:
+#{'d': 1, 'a': 2, 't': 1, 's': 1, 'c': 2, 'i': 1, 'e': 2, 'n': 1}
