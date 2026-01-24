@@ -33,3 +33,17 @@ print(chr_frequency(s))
 # Task 2 :
 
 # Count how many vowels and consonants are in a string.
+
+def count_vowels_consonants(word):
+    freq_count = {"vowels": 0, "consonants": 0}
+
+    for ch in word.lower():
+        if ch.isalpha():
+            if ch in "aeiou":
+                freq_count["vowels"] += 1
+            else:
+                freq_count["consonants"] += 1
+
+    return freq_count
+
+print(count_vowels_consonants("datascience"))
