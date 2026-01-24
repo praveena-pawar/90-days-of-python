@@ -50,3 +50,11 @@ print(count_vowels_consonants("datascience"))
 
 #output:
 #{'vowels': 5, 'consonants': 6}
+
+
+
+
+
+# Task 3 :
+
+# Given a string, find the first character that does not repeat.
