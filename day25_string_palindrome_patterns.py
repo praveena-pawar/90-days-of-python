@@ -72,3 +72,31 @@ print(remove_duplicates(s))
 # Task 3 :
 
 # Given a string, find the character that appears the most times.
+
+s = "datascience"
+
+def most_frequent_char(s):
+    freq = {}
+    for ch in s:
+        if ch in freq:
+            freq[ch] += 1
+        else:
+            freq[ch] = 1
+
+    max_count = 0
+    max_char = None
+
+    for ch in freq:
+        if freq[ch] > max_count:
+            max_count = freq[ch]
+            max_char = ch
+
+    return max_char
+
+print(most_frequent_char(s))
+
+
+
+    
+
+print(most_frequent_char(s))
