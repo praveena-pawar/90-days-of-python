@@ -39,3 +39,11 @@ print(is_palindrome(s))
 
 #output:
 #True
+
+
+
+
+
+# Task 2 :
+
+# Given a string, remove duplicate characters but keep the original order.
