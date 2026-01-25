@@ -62,3 +62,5 @@ def remove_duplicates(s):
 
 print(remove_duplicates(s))
 
+#output:
+#datscien
