@@ -64,3 +64,11 @@ print(remove_duplicates(s))
 
 #output:
 #datscien
+
+
+
+
+
+# Task 3 :
+
+# Given a string, find the character that appears the most times.
