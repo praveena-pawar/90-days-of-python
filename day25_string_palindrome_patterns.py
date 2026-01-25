@@ -47,3 +47,18 @@ print(is_palindrome(s))
 # Task 2 :
 
 # Given a string, remove duplicate characters but keep the original order.
+
+
+s = "datascience"
+
+def remove_duplicates(s):
+    removed = []
+    for ch in s:
+        if ch not in removed:
+            removed.append(ch) 
+
+
+    return"".join(removed)
+
+print(remove_duplicates(s))
+
