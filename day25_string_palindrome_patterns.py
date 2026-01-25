@@ -36,3 +36,6 @@ def is_palindrome(s):
     return True
 
 print(is_palindrome(s))
+
+#output:
+#True
