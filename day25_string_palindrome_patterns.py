@@ -95,6 +95,9 @@ def most_frequent_char(s):
 
 print(most_frequent_char(s))
 
+#output:
+#a
+
 
 
     
