@@ -11,3 +11,6 @@ def count_zeros(nums):
     return zeros
 
 print(count_zeros(nums))
+
+#output:
+#3
