@@ -17,3 +17,8 @@ print(find_max(nums))
 #output:
 #9
 
+
+
+# Task 2 :
+
+# Given a list, find the minimum value.
