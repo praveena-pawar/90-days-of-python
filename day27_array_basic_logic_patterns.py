@@ -56,3 +56,6 @@ def count_even_nums(nums):
     return even_nums
 
 print(count_even_nums(nums))
+
+#output:
+#
