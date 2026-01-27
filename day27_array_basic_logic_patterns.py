@@ -35,4 +35,5 @@ def find_min(nums):
 
 print(find_min(nums))
 
-
+#output:
+#2
