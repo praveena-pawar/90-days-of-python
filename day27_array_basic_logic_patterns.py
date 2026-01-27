@@ -44,3 +44,15 @@ print(find_min(nums))
 # Task 3 :
 
 #Count Even  Numbers 
+
+nums = [3, 7, 2, 9, 4, 6]
+
+def count_even_nums(nums):
+    even_nums = 0
+    for n in nums:
+        if n % 2 == 0:
+            even_nums += 1
+
+    return even_nums
+
+print(count_even_nums(nums))
