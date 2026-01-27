@@ -37,3 +37,10 @@ print(find_min(nums))
 
 #output:
 #2
+
+
+
+
+# Task 3 :
+
+#Count Even  Numbers 
