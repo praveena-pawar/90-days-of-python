@@ -14,3 +14,6 @@ def find_max(nums):
 
 print(find_max(nums))
 
+#output:
+#9
+
