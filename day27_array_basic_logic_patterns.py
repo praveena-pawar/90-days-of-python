@@ -22,3 +22,17 @@ print(find_max(nums))
 # Task 2 :
 
 # Given a list, find the minimum value.
+
+nums = [3, 7, 2, 9, 4]
+
+def find_min(nums):
+    min_num = nums[0]
+    for n in nums:
+        if n < min_num:
+            min_num = n
+    
+    return min_num
+
+print(find_min(nums))
+
+
