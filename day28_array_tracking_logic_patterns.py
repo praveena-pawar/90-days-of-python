@@ -28,3 +28,17 @@ print(second_largest([3, 7, 2, 9, 4]))
 
 # Given a list of numbers, find the second smallest number.
 
+def second_smallest(nums):
+    smallest = nums[0]
+    second_smallest = float('inf')
+
+    for n in nums:
+        if n < smallest:
+            second_smallest = smallest
+            smallest = n
+        elif n > smallest and n < second_smallest:
+            second_smallest = n
+
+    return second_smallest
+
+print(second_smallest([3, 7, 2, 9, 4]))
