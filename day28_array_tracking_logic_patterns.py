@@ -17,3 +17,6 @@ def second_largest(nums):
 
 
 print(second_largest([3, 7, 2, 9, 4]))
+
+#output:
+#7
