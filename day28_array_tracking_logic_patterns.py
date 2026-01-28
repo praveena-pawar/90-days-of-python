@@ -20,3 +20,11 @@ print(second_largest([3, 7, 2, 9, 4]))
 
 #output:
 #7
+
+
+
+
+# Task 2 :
+
+# Given a list of numbers, find the second smallest number.
+
