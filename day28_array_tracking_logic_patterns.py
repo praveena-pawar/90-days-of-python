@@ -42,3 +42,6 @@ def second_smallest(nums):
     return second_smallest
 
 print(second_smallest([3, 7, 2, 9, 4]))
+
+#output:
+#3
