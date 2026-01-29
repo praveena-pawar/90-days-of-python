@@ -68,5 +68,6 @@ def count_greater_than_average(nums):
 print(count_greater_than_average([1, 2, 3, 4, 5]))
 
 #output:
+#2
 
 
