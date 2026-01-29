@@ -16,3 +16,10 @@ print(largest_even([3, 7, 2, 9, 10, 4, 5]))
 
 #output:
 #10
+
+
+
+
+# Task 2 :
+
+# Given a list of numbers, find the smallest positive number.
