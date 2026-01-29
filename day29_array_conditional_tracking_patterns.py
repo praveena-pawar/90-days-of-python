@@ -40,6 +40,30 @@ print(smallest_positive_number( [3, -1, 7, 0, 2, -5, 4]))
 
 
 
+
 # Task 3 :
 
 # Given a list of numbers, count how many elements are strictly greater than the average of the list.
+
+def count_greater_than_average(nums):
+    total = 0
+    count = 0
+
+    # First loop: calculate sum and count
+    for n in nums:
+        total += n
+        count += 1
+
+    average = total / count
+
+    greater_count = 0
+    # Second loop: count numbers greater than average
+    for n in nums:
+        if n > average:
+            greater_count += 1
+
+    return greater_count
+
+
+print(count_greater_than_average([1, 2, 3, 4, 5]))
+
