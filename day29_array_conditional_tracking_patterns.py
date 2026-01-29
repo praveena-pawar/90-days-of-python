@@ -34,3 +34,6 @@ def smallest_positive_number(nums):
     return positive_number
 
 print(smallest_positive_number( [3, -1, 7, 0, 2, -5, 4]))
+
+#output:
+#2
