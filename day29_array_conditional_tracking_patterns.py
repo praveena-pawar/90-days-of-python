@@ -37,3 +37,9 @@ print(smallest_positive_number( [3, -1, 7, 0, 2, -5, 4]))
 
 #output:
 #2
+
+
+
+# Task 3 :
+
+# Given a list of numbers, count how many elements are strictly greater than the average of the list.
