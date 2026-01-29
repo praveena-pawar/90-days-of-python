@@ -23,3 +23,14 @@ print(largest_even([3, 7, 2, 9, 10, 4, 5]))
 # Task 2 :
 
 # Given a list of numbers, find the smallest positive number.
+
+def smallest_positive_number(nums):
+    positive_number = None
+    for n in nums:
+        if n > 0:
+            if positive_number is None or n < positive_number:
+                positive_number = n
+    
+    return positive_number
+
+print(smallest_positive_number( [3, -1, 7, 0, 2, -5, 4]))
