@@ -14,3 +14,6 @@ def largest_less_than_k(nums, k):
 
 
 print(largest_less_than_k( [3, 7, 2, 9, 4, 10, 5], 8))
+
+#output:
+#7
