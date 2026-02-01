@@ -10,3 +10,6 @@ def count_ups(arr):
     return count
 
 print(count_ups([1, 3, 2, 4, 6, 5]))
+
+#output:
+#3
