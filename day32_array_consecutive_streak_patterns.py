@@ -19,3 +19,6 @@ def longest_increasing_streak(nums):
 
 
 print(longest_increasing_streak([1, 3, 2, 4, 6, 5, 7]))
+
+#output:
+#3
