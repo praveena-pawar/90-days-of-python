@@ -30,3 +30,21 @@ print(longest_increasing_streak([1, 3, 2, 4, 6, 5, 7]))
 # Task 2 :
 
 # Find the longest streak where numbers do not go down
+
+def longest_non_decreasing_streak(nums):
+    current = 1
+    max_streak = 1
+
+    for i in range(1, len(nums)):
+        if nums[i] >= nums[i - 1]:
+            current += 1
+        else:
+            current = 1
+
+        if current > max_streak:
+            max_streak = current
+
+    return max_streak
+
+
+print(longest_non_decreasing_streak(nums = [1, 2, 2, 3, 1, 1, 2]))
