@@ -22,3 +22,11 @@ print(longest_increasing_streak([1, 3, 2, 4, 6, 5, 7]))
 
 #output:
 #3
+
+
+
+
+
+# Task 2 :
+
+# Find the longest streak where numbers do not go down
