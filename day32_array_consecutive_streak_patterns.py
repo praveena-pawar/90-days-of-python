@@ -50,3 +50,4 @@ def longest_non_decreasing_streak(nums):
 print(longest_non_decreasing_streak(nums = [1, 2, 2, 3, 1, 1, 2]))
 
 #output:
+#4
