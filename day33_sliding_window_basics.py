@@ -89,6 +89,9 @@ def longest_subarray(nums, target):
 
 print(longest_subarray([4, 2, 1, 7, 3, 2], 8))
 
+#output:
+#3
+
 
 
 
