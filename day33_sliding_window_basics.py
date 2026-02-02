@@ -45,3 +45,51 @@ print(max_sum(nums, 3))
 # Find the average of every subarray of size k
 # nums = [1, 3, 2, 6, -1, 4, 1, 8, 2]
 # k = 5
+
+def average(nums, k):
+    result = []
+    window_sum = sum(nums[:k])
+    result.append(window_sum / k)
+    for i in range(k, len(nums)):
+        window_sum += nums[i]
+        window_sum -= nums[i - k]
+        result.append(window_sum / k)
+
+    return result
+
+
+print(average([1, 3, 2, 6, -1, 4, 1, 8, 2],5))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# nums = [2, 1, 5, 1, 3]
+# k = 3
+
+# def sum_of_three(nums, k):
+#     best_answer = sum(nums[:k])
+#     for i in range(k, len(nums)):
+#         return best_answer
+
+#     return None
+
+# print(sum_of_three(nums, 3))
+
+
+# best_answer = sum(nums[:k])
+# for i in range(k, len(nums)):
+#     best_answer += nums[i]       
+#     best_answer -= nums[i - k] 
+#     print(best_answer%3) 
