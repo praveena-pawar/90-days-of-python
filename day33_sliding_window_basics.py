@@ -18,3 +18,7 @@ def max_sum(nums, k):
 
 nums = [2, 1, 5, 1, 3, 2]
 print(max_sum(nums, 3))
+
+#output:
+#9
+#(window = [5,1,3])
