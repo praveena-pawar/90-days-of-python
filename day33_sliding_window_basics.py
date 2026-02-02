@@ -1,3 +1,16 @@
+# Think:
+
+# [1 2 3] 4 5 6
+#   [2 3 4]
+#     [3 4 5]
+#       [4 5 6]
+
+# We remove left element
+# We add right element
+
+
+
+
 # Task 1 :
 
 # Find maximum sum of any subarray of size k.
