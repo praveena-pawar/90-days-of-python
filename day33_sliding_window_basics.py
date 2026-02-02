@@ -71,6 +71,24 @@ print(average([1, 3, 2, 6, -1, 4, 1, 8, 2],5))
 
 # Find the length of the longest subarray
 
+def longest_subarray(nums, target):
+    left = 0
+    window_sum = 0
+    max_len = 0
+
+    for right in range(len(nums)):
+        window_sum += nums[right]
+
+        while window_sum > target:
+            window_sum -= nums[left]
+            left += 1
+
+        max_len = max(max_len, right - left + 1)
+
+    return max_len
+
+print(longest_subarray([4, 2, 1, 7, 3, 2], 8))
+
 
 
 
