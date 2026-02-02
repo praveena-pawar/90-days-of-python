@@ -35,3 +35,13 @@ print(max_sum(nums, 3))
 #output:
 #9
 #(window = [5,1,3])
+
+
+
+
+
+# Task 2 :
+
+# Find the average of every subarray of size k
+# nums = [1, 3, 2, 6, -1, 4, 1, 8, 2]
+# k = 5
