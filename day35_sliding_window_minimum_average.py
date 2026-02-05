@@ -22,3 +22,15 @@ print(minimum_average_of_subbarray( [3, 7, 5, 20, -10, 0, 12], 2))
 
 #output:
 # -5.0
+
+
+
+
+
+# Task 2 :
+
+# Given an array of positive integers nums and an integer k,
+# find the length of the longest subarray whose sum is ≤ k.
+# nums = [2, 1, 1, 1, 3]
+# k = 3
+
