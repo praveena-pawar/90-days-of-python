@@ -42,3 +42,18 @@ The emphasis is on clarity, clean code, and strong fundamentals.
 - Build strong DSA foundations
 - Prepare for technical interviews at top tech companies
 - Develop disciplined, consistent learning habits
+
+
+
+##  Progress Structure
+
+The journey is divided into phases:
+
+1. Foundations (loops, conditionals, functions)
+2. Lists & dictionaries
+3. Strings and patterns
+4. Array logic & tracking
+5. Sliding window techniques
+6. Hash map patterns
+7. Interview pattern consolidation
+8. Mini logic projects
