@@ -34,3 +34,26 @@ print(minimum_average_of_subbarray( [3, 7, 5, 20, -10, 0, 12], 2))
 # nums = [2, 1, 1, 1, 3]
 # k = 3
 
+def longest_subarray(nums, k):
+    left = 0                 # left end of the window
+    window_sum = 0           # sum of current window
+    max_length = 0           # best answer so far
+
+    for right in range(len(nums)):     # move right end of window
+        window_sum += nums[right]      # add new element
+
+        while window_sum > k:          # if condition breaks
+            window_sum -= nums[left]   # remove left element
+            left += 1                  
+
+        max_length = max(max_length, right - left + 1)
+
+    return max_length
+
+
+print(longest_subarray([2, 1, 1, 1, 3], 3))
+
+        
+
+
+
