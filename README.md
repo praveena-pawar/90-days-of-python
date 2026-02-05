@@ -34,3 +34,11 @@ Each file represents a day of focused practice and progression.
 
 The emphasis is on clarity, clean code, and strong fundamentals.
 
+
+
+##  Goal of This Journey
+
+- Become confident in solving coding problems
+- Build strong DSA foundations
+- Prepare for technical interviews at top tech companies
+- Develop disciplined, consistent learning habits
