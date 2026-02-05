@@ -21,4 +21,4 @@ def minimum_average_of_subbarray(nums, k):
 print(minimum_average_of_subbarray( [3, 7, 5, 20, -10, 0, 12], 2))
 
 #output:
-#-5.0
+# -5.0
