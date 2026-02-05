@@ -44,7 +44,7 @@ def longest_subarray(nums, k):
 
         while window_sum > k:          # if condition breaks
             window_sum -= nums[left]   # remove left element
-            left += 1                  
+            left += 1                  # shrink window
 
         max_length = max(max_length, right - left + 1)
 
