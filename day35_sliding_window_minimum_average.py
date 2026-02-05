@@ -53,6 +53,9 @@ def longest_subarray(nums, k):
 
 print(longest_subarray([2, 1, 1, 1, 3], 3))
 
+#output:
+#3
+
         
 
 
