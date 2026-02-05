@@ -21,3 +21,16 @@ Daily Python practice focused on:
 - Core DSA problem-solving strategies
 
 Each file represents a day of focused practice and progression.
+
+
+
+##  Learning Approach
+
+- No copy-paste solutions
+- Logic-first thinking
+- Interview-style problem solving
+- Consistent daily practice
+- Focus on understanding patterns
+
+The emphasis is on clarity, clean code, and strong fundamentals.
+
