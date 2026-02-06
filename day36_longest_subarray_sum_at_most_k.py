@@ -20,5 +20,8 @@ def longest_subarray_witgh_sum(nums, k):
 
 print(longest_subarray_witgh_sum([2, 1, 1, 3, 2, 1],4))
 
+#output:
+#3
+
 
 
