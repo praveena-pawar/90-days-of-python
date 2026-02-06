@@ -25,3 +25,10 @@ print(longest_subarray_witgh_sum([2, 1, 1, 3, 2, 1],4))
 
 
 
+
+# Task 2 :
+
+# Find the length of the longest subarray with at most k distinct numbers
+
+
+
