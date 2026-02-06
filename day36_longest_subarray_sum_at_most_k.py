@@ -55,7 +55,7 @@ def longest_subarray_at_most_k_distinct(nums, k):
 print(longest_subarray_at_most_k_distinct([1, 2, 1, 2, 3], 2))
 
 #output:
-
+#4
 
 
 
