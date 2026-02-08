@@ -53,4 +53,16 @@ print(max_sum_of_subarray( [4, 2, 1, 7, 8, 1, 2, 8, 1, 0], 3))
 
 # Minimum sum of subarray of size k
 
+def min_sum_of_subarray(nums, k):
+    window_sum = sum(nums[:k])
+    min_sum = window_sum
+
+    for i in range(k, len(nums)):
+        window_sum += nums[i]
+        window_sum -= nums[i - k]
+        min_sum = min(window_sum, min_sum)
+    
+    return min_sum
+
+print(min_sum_of_subarray([3, 7, 90, 20, 10, 50, 40], 3))
 
