@@ -43,4 +43,7 @@ def max_sum_of_subarray(nums, k):
 
 print(max_sum_of_subarray( [4, 2, 1, 7, 8, 1, 2, 8, 1, 0], 3))
 
+#output:
+#16
+
 
