@@ -20,4 +20,14 @@ def even_sum(nums, k):
 
 print(even_sum([2, 1, 5, 1, 3, 2], 3))
 
+#output:
+#2
+
+
+
+
+# problem 2 :
+
+# Maximum sum of subarray of size k
+
 
