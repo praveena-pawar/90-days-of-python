@@ -66,3 +66,4 @@ def min_sum_of_subarray(nums, k):
 
 print(min_sum_of_subarray([3, 7, 90, 20, 10, 50, 40], 3))
 
+#output:
