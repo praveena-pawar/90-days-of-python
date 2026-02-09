@@ -18,4 +18,7 @@ def longest_subarray(nums, k):
 
     return max_len
 
-print(longest_subarray([2, 1, 5, 2, 3], 7))
+print(longest_subarray([2, 1, 5, 2, 3],7))
+
+#output:
+#2
