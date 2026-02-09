@@ -22,3 +22,10 @@ print(longest_subarray([2, 1, 5, 2, 3],7))
 
 #output:
 #2
+
+
+
+
+# problem 2 :
+
+# Smallest subarray with sum ≥ k
