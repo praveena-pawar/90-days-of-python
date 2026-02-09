@@ -51,3 +51,10 @@ print(smallest_subarray([2, 3, 1, 2, 4, 3], 7))
 
 #output:
 #2
+
+
+
+
+# problem 3 :
+
+# Longest Substring Without Repeating Characters
