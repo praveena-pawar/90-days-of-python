@@ -48,3 +48,6 @@ def smallest_subarray(nums, k):
     return min_len
 
 print(smallest_subarray([2, 3, 1, 2, 4, 3], 7))
+
+#output:
+#2
