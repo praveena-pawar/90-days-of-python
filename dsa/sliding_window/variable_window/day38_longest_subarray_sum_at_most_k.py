@@ -58,3 +58,22 @@ print(smallest_subarray([2, 3, 1, 2, 4, 3], 7))
 # problem 3 :
 
 # Longest Substring Without Repeating Characters
+
+def longest_substring(s):
+    left = 0
+    seen = set()
+    max_len = 0
+
+    for right in range(len(s)):
+        while s[right] in seen:
+            seen.remove(s[left])
+            left += 1
+
+        seen.add(s[right])
+        max_len = max(max_len, right - left + 1)
+
+    return max_len
+
+print(longest_substring("abcabcbb"))
+
+
