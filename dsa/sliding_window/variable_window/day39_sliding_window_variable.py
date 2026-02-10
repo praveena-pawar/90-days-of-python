@@ -31,3 +31,25 @@ print(longest_suabarray_at_most_k_zeros( [1, 1, 0, 0, 1, 1, 0, 1], 2))
 # problem 2 :
 
 # Longest substring with at most k distinct characters
+
+
+def longest_substring_at_most_k_distinct(s, k):
+    left = 0
+    freq = {}
+    max_len = 0
+
+    for right in range(len(s)):
+        freq[s[right]] = freq.get(s[right], 0) + 1
+
+        while len(freq) > k:
+            freq[s[left]] -= 1
+            if freq[s[left]] == 0:
+                del freq[s[left]]
+            left += 1
+
+        max_len = max(max_len, right - left + 1)
+
+    return max_len
+
+
+print(longest_substring_at_most_k_distinct("eceba", 2))
