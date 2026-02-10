@@ -24,3 +24,10 @@ print(longest_suabarray_at_most_k_zeros( [1, 1, 0, 0, 1, 1, 0, 1], 2))
 
 #ouptut:
 #6
+
+
+
+
+# problem 2 :
+
+# Longest substring with at most k distinct characters
