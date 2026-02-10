@@ -21,3 +21,6 @@ def longest_suabarray_at_most_k_zeros(nums, k):
     return max_len
 
 print(longest_suabarray_at_most_k_zeros( [1, 1, 0, 0, 1, 1, 0, 1], 2))
+
+#ouptut:
+#6
