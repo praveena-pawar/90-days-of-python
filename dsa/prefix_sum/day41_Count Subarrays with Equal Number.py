@@ -13,7 +13,6 @@ def count_subarray_with_equal_number(nums):
 
         current_sum += num
 
-
         if current_sum  in prefix_sum_count:
             count += prefix_sum_count[current_sum]
 
@@ -25,3 +24,6 @@ def count_subarray_with_equal_number(nums):
     return count
 
 print(count_subarray_with_equal_number([0,1,0,1]))
+
+#output : 
+#4
