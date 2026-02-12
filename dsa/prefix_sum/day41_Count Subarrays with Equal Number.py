@@ -51,7 +51,6 @@ def count_subarrays_divisible_by_k(nums, k):
         if remainder in remainder_count:
             count += remainder_count[remainder]
             
-
         remainder_count[remainder] = remainder_count.get(remainder, 0) + 1
 
     return count
