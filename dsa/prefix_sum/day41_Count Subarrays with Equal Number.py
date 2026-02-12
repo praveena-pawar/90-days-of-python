@@ -59,3 +59,6 @@ def count_subarrays_divisible_by_k(nums, k):
 nums = [4,5,0,-2,-3,1]
 k = 5
 print(count_subarrays_divisible_by_k(nums, k))
+
+#output:
+#7
