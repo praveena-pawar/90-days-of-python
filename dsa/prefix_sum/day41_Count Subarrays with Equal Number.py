@@ -27,3 +27,11 @@ print(count_subarray_with_equal_number([0,1,0,1]))
 
 #output : 
 #4
+
+
+
+
+
+# problem 2 :
+
+# Count Subarrays Divisible by K
