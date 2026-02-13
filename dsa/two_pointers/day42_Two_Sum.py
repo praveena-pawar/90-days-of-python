@@ -33,3 +33,18 @@ print(two_sum_sorted_array( [1, 2, 3, 4, 6],6))
 # problem 2 :
 
 # Remove Duplicates from Sorted Array
+
+def remove_duplicates(nums):
+    if not nums:
+        return 0
+
+    write = 1 
+
+    for i in range(1, len(nums)):
+        if nums[i] != nums[i - 1]: 
+            nums[write] = nums[i]
+            write += 1
+
+    return write
+
+print(remove_duplicates([0,0,1,1,1,2,2,3,3,4]))
