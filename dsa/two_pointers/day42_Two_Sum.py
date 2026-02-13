@@ -38,16 +38,19 @@ def remove_duplicates(nums):
     if not nums:
         return 0
 
-    write = 1 
+    slow = 0
 
-    for i in range(1, len(nums)):
-        if nums[i] != nums[i - 1]: 
-            nums[write] = nums[i]
-            write += 1
+    for fast in range(1, len(nums)):
+        if nums[fast] != nums[slow]:
+            slow += 1
+            nums[slow] = nums[fast]
 
-    return write
+    return slow + 1
 
-print(remove_duplicates([0,0,1,1,1,2,2,3,3,4]))
+nums = [1,2,2,2,3]
+length = remove_duplicates(nums)
+print(length)       # Output: 3
+print(nums[:length]) # Output: first 3 unique elements
 
 #output:
-#5
+#3
