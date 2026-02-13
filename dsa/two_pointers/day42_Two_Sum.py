@@ -75,6 +75,8 @@ def move_all_zero_to_end_of_array(nums):
 
     return nums
 
-
 nums = [0, 1, 0, 3, 12]
 print(move_all_zero_to_end_of_array(nums))
+
+#output:
+#[1, 3, 12, 0, 0]
