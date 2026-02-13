@@ -60,3 +60,21 @@ print(nums[:length]) # Output: first 3 unique elements
 # problem 3 :
 
 # Move all zeros to the end of the array, while keeping the order of non-zero elements.
+
+def move_all_zero_to_end_of_array(nums):
+    slow = 0
+
+    for fast in range(len(nums)):
+        if nums[fast] != 0:
+            nums[slow] = nums[fast]
+            slow += 1
+
+    while slow < len(nums):
+        nums[slow] = 0
+        slow += 1
+
+    return nums
+
+
+nums = [0, 1, 0, 3, 12]
+print(move_all_zero_to_end_of_array(nums))
