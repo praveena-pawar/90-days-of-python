@@ -24,3 +24,6 @@ def two_sum_sorted_array(nums, target):
 
 print(two_sum_sorted_array( [1, 2, 3, 4, 6],6))
 
+#output:
+#(1, 3)
+
