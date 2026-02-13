@@ -54,3 +54,9 @@ print(nums[:length]) # Output: first 3 unique elements
 
 #output:
 #3
+
+
+
+# problem 3 :
+
+# Move all zeros to the end of the array, while keeping the order of non-zero elements.
