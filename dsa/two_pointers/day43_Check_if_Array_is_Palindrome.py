@@ -15,3 +15,6 @@ def is_palindrome(arr):
     return True
 
 print(is_palindrome([1, 2, 3, 2, 1]))
+
+#output:
+#True
