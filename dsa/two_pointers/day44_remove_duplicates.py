@@ -18,4 +18,7 @@ nums = [1, 1, 2, 2, 3]
 length = remove_duplicates(nums)
 print(nums[:length])
 
+#output:
+#[1, 2, 3]
+
 
