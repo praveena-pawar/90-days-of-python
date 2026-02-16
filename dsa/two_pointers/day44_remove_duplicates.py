@@ -22,3 +22,12 @@ print(nums[:length])
 #[1, 2, 3]
 
 
+
+
+
+# problem 2 :
+
+# Move all zeros to the end
+
+
+
