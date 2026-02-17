@@ -24,3 +24,6 @@ def is_palindrome(s):
     return True
 
 print(is_palindrome("A man, a plan, a canal: Panama"))
+
+#output:
+#True
