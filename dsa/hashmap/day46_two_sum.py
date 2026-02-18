@@ -49,3 +49,23 @@ print(contains_duplicate([1,2,3,4]))
 # Problem 3 :
 
 # Return the number that appears most times in the array.
+
+def most_frequent(nums):
+    count = {}
+
+    for num in nums:
+        count[num] = count.get(num, 0) + 1
+
+    max_num = None
+    max_count = 0
+
+    for num in count:
+        if count[num] > max_count:
+            max_count = count[num]
+            max_num = num
+
+    return max_num
+
+
+nums = [1,3,1,3,2,1]
+print(most_frequent(nums))
