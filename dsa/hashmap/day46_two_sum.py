@@ -13,7 +13,7 @@ def two_sum(nums, target):
             return [seen[needed], i]
 
         seen[num] = i
-
+        
 print(two_sum([2, 7, 11, 15], 9))
 
 #output:
@@ -27,3 +27,15 @@ print(two_sum([2, 7, 11, 15], 9))
 # Return True if the array contains duplicates.
 # Return False if all numbers are unique.
 
+def contains_duplicate(nums):
+    seen = {}
+
+    for num in nums:
+        if num in seen:
+            return True
+
+        seen[num] = True
+
+    return False
+
+print(contains_duplicate([1,2,3,4]))
