@@ -14,3 +14,6 @@ def two_sum(nums, target):
 
         seen[num] = i
 print(two_sum([2, 7, 11, 15], 9))
+
+#output:
+#[0, 1]   #these are index values 
