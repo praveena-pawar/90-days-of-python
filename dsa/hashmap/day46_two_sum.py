@@ -1,3 +1,16 @@
 # problem 1 :
 
 # Two Sum (Unsorted Array)
+
+def two_sum(nums, target):
+    seen = {}
+
+    for i in range(len(nums)):
+        num = nums[i]
+        needed = target - num
+
+        if needed in seen:
+            return [seen[needed], i]
+
+        seen[num] = i
+print(two_sum([2, 7, 11, 15], 9))
