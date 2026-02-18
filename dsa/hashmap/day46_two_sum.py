@@ -39,3 +39,6 @@ def contains_duplicate(nums):
     return False
 
 print(contains_duplicate([1,2,3,4]))
+
+#output:
+#False
