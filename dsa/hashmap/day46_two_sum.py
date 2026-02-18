@@ -42,3 +42,10 @@ print(contains_duplicate([1,2,3,4]))
 
 #output:
 #False
+
+
+
+
+# Problem 3 :
+
+# Return the number that appears most times in the array.
