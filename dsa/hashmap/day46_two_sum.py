@@ -71,3 +71,4 @@ nums = [1,3,1,3,2,1]
 print(most_frequent(nums))
 
 #output:
+#1     #because 2 appears 1 time
