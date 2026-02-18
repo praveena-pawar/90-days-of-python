@@ -13,7 +13,17 @@ def two_sum(nums, target):
             return [seen[needed], i]
 
         seen[num] = i
+
 print(two_sum([2, 7, 11, 15], 9))
 
 #output:
 #[0, 1]   #these are index values 
+
+
+
+
+# problem 2 :
+
+# Return True if the array contains duplicates.
+# Return False if all numbers are unique.
+
