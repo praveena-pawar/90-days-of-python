@@ -69,3 +69,5 @@ def most_frequent(nums):
 
 nums = [1,3,1,3,2,1]
 print(most_frequent(nums))
+
+#output:
