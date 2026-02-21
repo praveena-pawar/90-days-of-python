@@ -46,3 +46,6 @@ def frequency_count(nums):
 
 
 print(frequency_count([1,2,2,3,3,3]))
+
+#output:
+#{1: 1, 2: 2, 3: 3}
