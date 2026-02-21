@@ -34,3 +34,15 @@ print(is_anagram("rat", "car"))         #False
 #problem 2 :
 
 # Return a dictionary containing frequency of each element.
+
+
+def frequency_count(nums):
+    count = {}
+
+    for num in nums:
+        count[num] = count.get(num, 0) + 1
+
+    return count
+
+
+print(frequency_count([1,2,2,3,3,3]))
