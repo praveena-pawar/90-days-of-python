@@ -21,5 +21,9 @@ def is_anagram(s, t):
     return True
 
 
-print(is_anagram("listen", "silent"))  
-print(is_anagram("rat", "car"))        
+print(is_anagram("listen", "silent"))  #True
+print(is_anagram("rat", "car"))         #False     
+ 
+#output:
+#True
+#False
