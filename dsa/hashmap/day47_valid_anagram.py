@@ -57,3 +57,20 @@ print(frequency_count([1,2,2,3,3,3]))
 
 # First Non-Repeating Character
 
+def first_non_repeating(s):
+    count = {}
+
+    # Step 1: Count frequency
+    for char in s:
+        count[char] = count.get(char, 0) + 1
+
+    # Step 2: Find first character with frequency 1
+    for char in s:
+        if count[char] == 1:
+            return char
+
+    return None
+
+
+print(first_non_repeating("leetcode"))  # l
+print(first_non_repeating("aabb"))      # None
