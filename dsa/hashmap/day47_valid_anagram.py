@@ -74,3 +74,7 @@ def first_non_repeating(s):
 
 print(first_non_repeating("leetcode"))  # l
 print(first_non_repeating("aabb"))      # None
+
+#output:
+#1
+#None
