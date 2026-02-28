@@ -55,3 +55,18 @@ print(move_zeros(nums))
 #problem 3 : 
 
 # Move all zeros to the front instead of end.
+
+def move_zeros(arr):
+    right = 0  
+
+    for left in range(len(arr)):
+        if arr[left] == 0:
+            
+            arr[right], arr[left] = arr[left], arr[right]
+            right += 1
+
+    return arr
+
+
+arr = [0, 1, 0, 3, 12]
+print(move_zeros(arr))
