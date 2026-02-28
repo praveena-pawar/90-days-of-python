@@ -50,3 +50,8 @@ print(move_zeros(nums))
 #[1, 3, 12, 0, 0]
 
 
+
+
+#problem 3 : 
+
+# Move all zeros to the front instead of end.
