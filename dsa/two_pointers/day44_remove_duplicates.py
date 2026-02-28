@@ -70,3 +70,6 @@ def move_zeros(arr):
 
 arr = [0, 1, 0, 3, 12]
 print(move_zeros(arr))
+
+#output :
+#[0, 0, 1, 3, 12]
