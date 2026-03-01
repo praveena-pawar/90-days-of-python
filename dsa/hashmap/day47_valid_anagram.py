@@ -31,6 +31,7 @@ print(is_anagram("rat", "car"))         #False
 
 
 
+
 #problem 2 :
 
 # Return a dictionary containing frequency of each element.
