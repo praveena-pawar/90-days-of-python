@@ -82,3 +82,6 @@ def smallest_subarray(arr, target):
 
 print(smallest_subarray(arr, target))
 
+#output:
+#2
+
