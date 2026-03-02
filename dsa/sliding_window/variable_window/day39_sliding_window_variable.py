@@ -53,3 +53,11 @@ def longest_substring_at_most_k_distinct(s, k):
 
 
 print(longest_substring_at_most_k_distinct("eceba", 2))
+
+
+
+
+
+# probelm 3 : 
+
+# Find the smallest subarray with sum ≥ target.
