@@ -61,3 +61,24 @@ print(longest_substring_at_most_k_distinct("eceba", 2))
 # probelm 3 : 
 
 # Find the smallest subarray with sum ≥ target.
+
+arr = [2, 3, 1, 2, 4, 3]
+target = 7
+
+def smallest_subarray(arr, target):
+    left = 0
+    current_sum = 0
+    min_len = float('inf')
+
+    for right in range(len(arr)):
+        current_sum += arr[right]
+
+        while current_sum >= target:
+            min_len = min(min_len, right - left + 1)
+            current_sum -= arr[left]
+            left += 1
+
+    return min_len
+
+print(smallest_subarray(arr, target))
+
