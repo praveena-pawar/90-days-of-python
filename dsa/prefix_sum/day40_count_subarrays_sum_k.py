@@ -28,3 +28,9 @@ nums = [1, -1, 2, 3, -2, 2]
 k = 3
 print(count_subarrays_with_sum_k(nums, k))
 
+
+
+
+# problem 2 : 
+
+# Find length of longest subarray with sum = 3.
