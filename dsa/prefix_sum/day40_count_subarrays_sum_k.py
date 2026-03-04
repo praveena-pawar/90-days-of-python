@@ -68,4 +68,11 @@ print(longest_subarray( [1, -1, 5, -2, 3], 3))
 
 #output:
 #4
-            
+
+
+
+
+
+# problem 3 : 
+
+# Longest subarray with sum = 0
