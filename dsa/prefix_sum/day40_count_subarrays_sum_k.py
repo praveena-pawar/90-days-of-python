@@ -76,3 +76,32 @@ print(longest_subarray( [1, -1, 5, -2, 3], 3))
 # problem 3 : 
 
 # Longest subarray with sum = 0
+
+def find_max_length(nums):
+    current_sum = 0
+    max_length = 0
+    prefix_map = {}
+
+    for i in range(len(nums)):
+        
+        # Convert 0 to -1
+        if nums[i] == 0:
+            current_sum += -1
+        else:
+            current_sum += 1
+
+        # If sum becomes 0
+        if current_sum == 0:
+            max_length = i + 1
+
+        # If sum seen before
+        if current_sum in prefix_map:
+            length = i - prefix_map[current_sum]
+            max_length = max(max_length, length)
+        else:
+            # Store first occurrence
+            prefix_map[current_sum] = i
+
+    return max_length
+
+print(find_max_length([0,1,0,1,1,0]))
