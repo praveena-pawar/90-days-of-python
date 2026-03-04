@@ -65,6 +65,7 @@ def longest_subarray(nums, k):
     return max_length
 
 print(longest_subarray( [1, -1, 5, -2, 3], 3))
-            
-        
 
+#output:
+#4
+            
