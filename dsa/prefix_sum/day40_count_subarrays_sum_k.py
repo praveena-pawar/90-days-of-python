@@ -105,3 +105,6 @@ def find_max_length(nums):
     return max_length
 
 print(find_max_length([0,1,0,1,1,0]))
+
+#output:
+#6
