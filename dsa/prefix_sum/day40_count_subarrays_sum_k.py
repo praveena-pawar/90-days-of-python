@@ -31,6 +31,40 @@ print(count_subarrays_with_sum_k(nums, k))
 
 
 
+
 # problem 2 : 
 
 # Find length of longest subarray with sum = 3.
+
+arr = [1, -1, 5, -2, 3]
+k = 3
+
+
+def longest_subarray(nums, k):
+    current_sum = 0
+    max_length = 0
+    prefix_map = {}
+
+    for i in range(len(nums)):
+        current_sum += nums[i]
+
+        # Case 1: if current_sum itself equals k
+        if current_sum == k:
+            max_length = i + 1
+
+        # Case 2: check if (current_sum - k) was seen before
+        needed = current_sum - k
+        if needed in prefix_map:
+            length = i - prefix_map[needed]
+            max_length = max(max_length, length)
+
+        # Store prefix sum (only first occurrence)
+        if current_sum not in prefix_map:
+            prefix_map[current_sum] = i
+
+    return max_length
+
+print(longest_subarray( [1, -1, 5, -2, 3], 3))
+            
+        
+
