@@ -19,3 +19,6 @@ def next_greater(arr):
 
 arr = [2, 1, 2, 4, 3]
 print(next_greater(arr))
+
+#output:
+#[4, 2, 4, -1, -1]
