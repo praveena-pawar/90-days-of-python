@@ -22,3 +22,10 @@ print(next_greater(arr))
 
 #output:
 #[4, 2, 4, -1, -1]
+
+
+
+
+# problem 2 :
+
+# Next Smaller Element to the Right
