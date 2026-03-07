@@ -55,3 +55,21 @@ print(next_smaller(arr))
 # problem 3 :
 
 # For each day, find how many days you have to wait until a warmer temperature.
+
+def daily_temperatures(temps):
+    stack = []
+    result = [0] * len(temps)
+
+    for i in range(len(temps)):
+        
+        while stack and temps[i] > temps[stack[-1]]:
+            index = stack.pop()
+            result[index] = i - index
+
+        stack.append(i)
+
+    return result
+
+
+temps = [73,74,75,71,69,72,76,73]
+print(daily_temperatures(temps))
