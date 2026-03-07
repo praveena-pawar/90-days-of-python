@@ -47,3 +47,11 @@ def next_smaller(arr):
 
 arr = [4, 8, 5, 2, 25]
 print(next_smaller(arr))
+
+
+
+
+
+# problem 3 :
+
+# For each day, find how many days you have to wait until a warmer temperature.
