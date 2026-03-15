@@ -23,3 +23,10 @@ print(next_smaller_left(arr))
 #output:
 #[-1, 4, -1, 2, 2]
 
+
+
+
+
+
+# problem 3 :
+# Next Greater Element to the Left
