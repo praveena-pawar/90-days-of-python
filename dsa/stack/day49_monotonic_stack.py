@@ -48,3 +48,6 @@ def next_greater_left(arr):
     return result
 
 print(next_greater_left(arr))
+
+#output:
+#[-1, 2, -1, -1, 4]
