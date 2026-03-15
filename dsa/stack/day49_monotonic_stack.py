@@ -20,3 +20,6 @@ def next_smaller_left(arr):
 
 print(next_smaller_left(arr))
 
+#output:
+#[-1, 4, -1, 2, 2]
+
