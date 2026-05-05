@@ -20,7 +20,7 @@ print(result)
 # Example : 
 # def test():
 #     return 10
-#     print("Hello")  # ❌ never runs
+#     print("Hello")  #  never runs
 
 
 
