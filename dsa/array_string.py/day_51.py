@@ -10,3 +10,7 @@ def largest_element(nums):
 
 nums = [5, 2, 9, 1, 7]
 print(largest_element(nums))
+
+
+
+# 2: Find the Second Largest Distinct Element
