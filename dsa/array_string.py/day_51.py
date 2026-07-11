@@ -31,3 +31,7 @@ def second_largest_element(nums):
 
 nums = [12, 35, 1, 10, 34, 1]
 print(second_largest_element(nums))
+
+
+
+# 3: Check if an Array is Sorted
