@@ -26,8 +26,10 @@ def second_largest_element(nums):
         elif num > second_large_element and num != large_num:
             second_large_element = num
 
-    return second_large_element
+    if second_large_element == float('-inf'):
+        return -1
 
+    return second_large_element
 
 nums = [12, 35, 1, 10, 34, 1]
 print(second_largest_element(nums))
@@ -35,3 +37,12 @@ print(second_largest_element(nums))
 
 
 # 3: Check if an Array is Sorted
+def array_sorted_or_not(nums):
+    for i in range(len(nums) -1):
+        if nums[i] > nums[i + 1]:
+            return False
+        
+    return True
+
+nums = [1, 2, 2, 4, 5]
+print(array_sorted_or_not(nums))
