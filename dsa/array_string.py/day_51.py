@@ -46,3 +46,7 @@ def array_sorted_or_not(nums):
 
 nums = [1, 2, 2, 4, 5]
 print(array_sorted_or_not(nums))
+
+
+
+# 4: Reverse an Array (In-Place)
