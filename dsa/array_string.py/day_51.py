@@ -14,3 +14,20 @@ print(largest_element(nums))
 
 
 # 2: Find the Second Largest Distinct Element
+def second_largest_element(nums):
+    large_num = float('-inf')
+    second_large_element = float('-inf')
+
+    for num in nums:
+        if num > large_num:
+            second_large_element = large_num
+            large_num = num
+
+        elif num > second_large_element and num != large_num:
+            second_large_element = num
+
+    return second_large_element
+
+
+nums = [12, 35, 1, 10, 34, 1]
+print(second_largest_element(nums))
