@@ -64,3 +64,7 @@ def reverse_an_array(nums):
 
 nums = [1, 2, 3, 4, 5]
 print(reverse_an_array(nums))
+
+
+
+# 5: Move All Zeros to the End
