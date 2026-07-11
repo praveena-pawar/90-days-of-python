@@ -68,3 +68,14 @@ print(reverse_an_array(nums))
 
 
 # 5: Move All Zeros to the End
+def move_all_zeros_to_end(nums):
+    write = 0
+    for read in range(len(nums)):
+        if nums[read] != 0:
+           nums[write], nums[read] = nums[read], nums[write]
+           write += 1
+            
+    return nums
+
+nums = [0, 1, 0, 3, 12]
+print(move_all_zeros_to_end(nums))
