@@ -83,3 +83,26 @@ print(move_all_zeros_to_end(nums))
 
 
 # 6: Remove Duplicates from a Sorted Array
+def remove_duplicate_array(nums):
+    if not nums:
+        return 0
+
+    write = 1
+
+    for read in range(1, len(nums)):
+        if nums[read] != nums[write - 1]:
+            nums[write] = nums[read]
+            write += 1
+
+    return write
+
+
+nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+
+k = remove_duplicate_array(nums)
+
+print("k =", k)
+print("Modified array:", nums)
+print("Unique elements:", nums[:k])
+
+
