@@ -79,3 +79,7 @@ def move_all_zeros_to_end(nums):
 
 nums = [0, 1, 0, 3, 12]
 print(move_all_zeros_to_end(nums))
+
+
+
+# 6: Remove Duplicates from a Sorted Array
