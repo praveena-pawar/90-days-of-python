@@ -106,3 +106,6 @@ print("Modified array:", nums)
 print("Unique elements:", nums[:k])
 
 
+
+# 7: Rotate Array by One Position (Right Rotation)
+
