@@ -124,3 +124,7 @@ def rotate_right_by_one(nums):
 nums = [1, 2, 3, 4, 5]
 rotate_right_by_one(nums)
 print(nums)
+
+
+
+# 10: Merge Two Sorted Arrays
