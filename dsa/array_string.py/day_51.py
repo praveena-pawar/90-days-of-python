@@ -108,4 +108,19 @@ print("Unique elements:", nums[:k])
 
 
 # 7: Rotate Array by One Position (Right Rotation)
+def rotate_right_by_one(nums):
+    if len(nums) <= 1:
+        return nums
 
+    last = nums[-1]
+
+    for i in range(len(nums) - 1, 0, -1):
+        nums[i] = nums[i - 1]
+
+    nums[0] = last
+    return nums
+
+
+nums = [1, 2, 3, 4, 5]
+rotate_right_by_one(nums)
+print(nums)
