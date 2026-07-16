@@ -32,3 +32,22 @@ def majority_element(nums):
 
 nums = [2, 2, 1, 1, 1, 2, 2]
 print(majority_element(nums))
+
+
+
+# 3: Find All Leaders in an Array
+def find_leaders(nums):
+    leaders = []
+    max_right = float("-inf")
+
+    for i in range(len(nums) - 1, -1, -1):
+        if nums[i] > max_right:
+            leaders.append(nums[i])
+            max_right = nums[i]
+
+    leaders.reverse()
+    return leaders
+
+
+nums = [7, 4, 5, 7, 3]
+print(find_leaders(nums))
