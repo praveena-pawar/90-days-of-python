@@ -10,3 +10,7 @@ def missing_number(nums):
 
 nums = [3, 0, 1]
 print(missing_number(nums))
+
+
+
+# 2: Find the Majority Element
