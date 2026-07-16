@@ -51,3 +51,7 @@ def find_leaders(nums):
 
 nums = [7, 4, 5, 7, 3]
 print(find_leaders(nums))
+
+
+
+# 4: Find the Frequency of Each Element
