@@ -55,3 +55,17 @@ print(find_leaders(nums))
 
 
 # 4: Find the Frequency of Each Element
+def frequency(nums):
+    freq = {}
+
+    for num in nums:
+        if num in freq:
+            freq[num] += 1
+
+        else:
+            freq[num] = 1
+
+    return freq
+
+nums = [1, 2, 2, 3, 1, 1]
+print(frequency(nums))
