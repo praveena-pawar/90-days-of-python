@@ -69,3 +69,7 @@ def frequency(nums):
 
 nums = [1, 2, 2, 3, 1, 1]
 print(frequency(nums))
+
+
+
+# 5: Check if Two Strings are Anagrams
