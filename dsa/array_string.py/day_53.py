@@ -46,3 +46,7 @@ def is_palindrome(s):
 
 s = "A man, a plan, a canal: Panama"
 print(is_palindrome(s))
+
+
+
+# 3: Find the Length of the Last Word
