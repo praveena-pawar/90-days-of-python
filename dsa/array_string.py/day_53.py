@@ -50,3 +50,22 @@ print(is_palindrome(s))
 
 
 # 3: Find the Length of the Last Word
+def length_of_last_word(s):
+    i = len(s) - 1
+
+    # Skip trailing spaces
+    while i >= 0 and s[i] == " ":
+        i -= 1
+
+    length = 0
+
+    # Count the last word
+    while i >= 0 and s[i] != " ":
+        length += 1
+        i -= 1
+
+    return length
+
+
+s = "   fly me   to   the moon  "
+print(length_of_last_word(s))
