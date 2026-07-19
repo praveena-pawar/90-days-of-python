@@ -16,3 +16,7 @@ s = "abc"
 t = "ahbgdc"
 
 print(is_subsequence(s, t))
+
+
+
+# 2: Find the First Unique Character in a String
