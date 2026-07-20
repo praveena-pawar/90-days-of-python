@@ -14,3 +14,7 @@ def revesre_string(s):
 s = ["h", "e", "l", "l", "o"]
 
 print(revesre_string(s))
+
+
+
+# 2: Valid Palindrome (LeetCode 125)
