@@ -1,0 +1,1 @@
+# 1: Remove Element (LeetCode 27)
