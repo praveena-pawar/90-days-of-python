@@ -44,7 +44,6 @@ The emphasis is on clarity, clean code, and strong fundamentals.
 - Develop disciplined, consistent learning habits
 
 
-
 ##  Progress Structure
 
 The journey is divided into phases:
