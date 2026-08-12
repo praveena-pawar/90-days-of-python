@@ -5,7 +5,6 @@ This repository documents my 90-day journey of mastering Python with a strong fo
 The goal is not just to learn syntax, but to develop a structured problem-solving mindset used in real technical interviews.
 
 
-
 ##  What This Repository Contains
 
 Daily Python practice focused on:
